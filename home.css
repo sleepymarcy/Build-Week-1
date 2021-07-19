@@ -81,6 +81,12 @@ body {
       
   }
 
+  h5 .card-title {
+      display:-webkit-box;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
+  }
+
   .main-scroll button {
       border-radius: 50%;
   }

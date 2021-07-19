@@ -1,0 +1,20 @@
+.speaker {
+	position: relative;
+}
+.speaker::after {
+	content: '';
+	position: absolute;
+	width: 100px;
+	height: 6px;
+	background-color: rgb(218, 209, 213);
+	top: 6px;
+	border-radius: 20px;
+	margin-left: 2px;
+}
+
+@media only screen and (max-width: 700px) {
+	.current-song {
+		display: flex;
+		flex-direction: row;
+	}
+}

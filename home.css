@@ -1,0 +1,14 @@
+.col{
+    display:grid;
+    grid-template-columns: repeat(8,1fr);
+   
+}
+body{
+    margin-left:170px
+}
+.card:hover{
+    transform:translateY(-3px)scale(1.05);
+    cursor:pointer;
+    transition:0.5s
+   
+}

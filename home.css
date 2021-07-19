@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    background-color: rgba(27, 22, 22, 0.945) !important;
+  }
+  
+  /*
+  .sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+   
+  .sidebar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+*/
+
+  /* good morning style */
+ 
+ 
+  .titlegm {
+    color:#f1ecec;
+    margin-left: 20px;
+} 
+  
+  .card {
+    background-color: rgba(59, 56, 56, 0.349) !important;
+    color:#e0dbdb;
+    border-radius: 10%;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient:horizontal;
+  }
+
+  
+  .gm {
+      margin-top: 30px;
+      display: flex;
+      justify-content: space-evenly;
+      
+  }
+
+  .main-scroll button {
+      border-radius: 50%;
+  }
+
+  .main-scroll {
+      margin-left: 20px;
+  }

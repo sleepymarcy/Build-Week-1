@@ -19,6 +19,27 @@ body{
     transition:0.5s
    
 }
+.speaker {
+	position: relative;
+}
+.speaker::after {
+	content: '';
+	position: absolute;
+	width: 100px;
+	height: 6px;
+	background-color: rgb(218, 209, 213);
+	top: 6px;
+	border-radius: 20px;
+	margin-left: 2px;
+}
+.card {
+	transition: all 0.5s;
+	opacity: 0.8;
+}
+.card:hover {
+	transform: translateY(-5px);
+	opacity: 1;
+}
 
 .root-nav {
   -webkit-box-orient: vertical;
@@ -263,4 +284,9 @@ hr {
   top: 0px;
   height: 47px;
   border-radius: 50%;
+}
+@media only screen and (min-width: 1000px) {
+	.shows-details {
+		margin-left: -18rem;
+	}
 }

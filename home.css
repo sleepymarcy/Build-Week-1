@@ -5,6 +5,20 @@ body {
   vertical-align: baseline;
   background-color: rgba(27, 22, 22, 0.945) !important;
 }
+.col{
+    display:grid;
+    grid-template-columns: repeat(8,1fr);
+   
+}
+body{
+    margin-left:170px
+}
+.card:hover{
+    transform:translateY(-3px)scale(1.05);
+    cursor:pointer;
+    transition:0.5s
+   
+}
 
 .root-nav {
   -webkit-box-orient: vertical;

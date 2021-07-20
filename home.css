@@ -4,6 +4,7 @@ body {
   line-height: 1.6;
   vertical-align: baseline;
 }
+  background-color: rgba(27, 22, 22, 0.945) !important;
 
 .root-nav {
   -webkit-box-orient: vertical;
@@ -177,3 +178,81 @@ hr {
 .li-position {
     padding: 6px 0px 6px 0px;
 }
+  .titlegm {
+    color:#f1ecec;
+} 
+  .card {
+    background-color: rgba(59, 56, 56, 0.349) !important;
+    color:#e0dbdb;
+    border-radius: 10%;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient:horizontal;
+  }
+  .gm {
+      margin-top: 30px;
+      display: flex;
+      justify-content: space-evenly;
+      
+  }
+  .card-title {
+    white-space: nowrap; 
+    width: 130px; 
+    display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: horizontal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .arrows button {
+      border-radius: 50%;
+  }
+
+  .main-scroll {
+      margin-left: 20px;
+      display: flex;
+      justify-content: space-between;
+      top:0;
+  }
+
+  .main-scroll .navbar-toggler {
+    background-color: rgba(0,0,0,.7) !important;
+    border-radius: 40px;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color:rgb(255, 255, 255);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: relative;
+}
+
+.navbar-toggler span {
+  position: absolute;
+  background-color: transparent;
+  top: 12px;
+  right: 10px;
+}
+.navbar-toggler p {
+
+   position: absolute;
+   top: 13px;
+   right: 52px;
+}
+
+
+.navbar-toggler img {
+   vertical-align: middle;
+   border-style: none;
+   left: 1px;
+   position: absolute;
+   top: 0px;
+   height: 47px;
+   border-radius: 50%;
+}
+
+ 

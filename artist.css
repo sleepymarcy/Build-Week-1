@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    background-color: rgba(27, 22, 22, 0.945) !important;
+  }
+
+  .arrows button {
+    border-radius: 50%;
+}
+
+.main-scroll {
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    top:0;
+}
+
+.navbar-toggler {
+    background-color: rgba(0,0,0,.7);
+    border-radius: 40px;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color:rgb(255, 255, 255);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: relative;
+}
+
+.navbar-toggler span {
+   position: absolute;
+   background-color: transparent;
+   top: 12px;
+   right: 10px;
+}
+
+.navbar-toggler p {
+    position: absolute;
+    top: 13px;
+    right: 52px;
+}
+
+
+.navbar-toggler img {
+    vertical-align: middle;
+    border-style: none;
+    left: 1px;
+    position: absolute;
+    top: 0px;
+    height: 47px;
+    border-radius: 50%;
+}
+nav {
+    display:block;
+    left:0;
+    position: absolute;
+    top:0;
+    width: 100%;
+}
+.nav-artist {
+    background-image:url(/covers/qmaincover.jpeg);
+    background-size: cover;
+    width: auto;
+    height: 40vh;
+    contain:strict;
+    content-visibility: auto;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-attachment: scroll;
+    min-height: 340px;
+    position:relative;
+    z-index:2;
+}
+
+.artistTitle h1 {
+    position:absolute;
+    top:240px;
+    left:40px;
+    transform: (-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 10rem;
+    letter-spacing: -5px;
+}
+
+.artistTitle h6 {
+    position:absolute;
+    top:420px;
+    left:45px;
+    color: rgb(255, 255, 255); 
+    font-weight: bold;  
+    font-size: 1,8rem;
+    display: inline;
+}
+
+.artistTitle h5{
+    color: rgb(253, 253, 253); 
+    font-weight: bold;  
+    font-size: 1,8rem;
+    position:absolute;
+    top:215px;
+    left:90px;
+    display: inline;
+}
+
+.artistTitle svg {
+    position:absolute;
+    top:208px;
+    left:45px;
+    display: inline;
+}
+ 
+  .play-btn {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(37, 223, 83);
+    border: 2px solid rgb(29, 223, 71);
+    border-radius: 50%;
+  }
+  
+.play-btn:not(:hover) {
+    background: rgb(91, 246, 30);
+  }  

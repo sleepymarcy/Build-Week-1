@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    background-color: rgba(27, 22, 22, 0.945) !important;
+  }
+
+  
+  .arrows button {
+    border-radius: 50%;
+}
+
+.main-scroll {
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    top:0;
+}
+
+.navbar-toggler {
+    background-color: rgba(0,0,0,.7);
+    border-radius: 40px;
+    width: 250px;
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color:rgb(255, 255, 255);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.navbar-toggler span {
+   background-color: transparent;
+   margin-top: 5px;
+}
+.navbar-toggler img {
+    border-radius: 50%;
+}
+nav {
+    display:block;
+    left:0;
+    position: absolute;
+    top:0;
+    width: 100%;
+}
+.nav-artist {
+    background-image:url(/covers/queenmaincover.jpeg);
+    width: auto;
+    height: 40vh;
+    contain:strict;
+    content-visibility: auto;
+    background-repeat: no-repeat;
+    background-position: 50% 35%;
+    background-attachment: scroll;
+    min-height: 340px;
+    opacity: 75%;
+}

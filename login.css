@@ -42,6 +42,19 @@ body {
 	opacity: 0.9;
 	transform: scale(1.04);
 }
+.login-link {
+	background-color: green;
+	color: white;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 10px;
+	transition: all 0.03s ease-in;
+}
+.login-link:hover {
+	background-color: rgba(216, 112, 147, 0.671);
+}
 
 /* Bordered form */
 form {

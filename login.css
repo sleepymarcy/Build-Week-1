@@ -73,7 +73,7 @@ body {
 	}
 }
 .box .square:nth-child(1) {
-	top: -50px;
+	top: -60px;
 	right: -60px;
 	width: 100px;
 	height: 100px;

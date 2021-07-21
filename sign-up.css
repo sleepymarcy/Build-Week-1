@@ -201,7 +201,7 @@ section .color:nth-child(3) {
 	color: white;
 }
 .form .inputBox input[type='submit'] {
-	background: #fff;
+	background: rgba(255, 255, 255, 0.87);
 	color: #666;
 	max-width: 100px;
 	cursor: pointer;

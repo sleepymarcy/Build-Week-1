@@ -2,455 +2,489 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="home.css">
 
-    <title>Home Page</title>
+  <title>Home Page</title>
 
 </head>
 
 
 <body>
-    <div id="left" class="column">
-        <div class="bottom">
-            <nav class="root-nav">
-                <div class="sidebar">
-                    <div class="logo">
-                        <svg viewbox="0 0 1134 340" class="spotify-logo">
-                            <title>Spotify</title>
-                            <path fill="currentColor"
-                                d="M8 171c0 92 76 168 168 168s168-76 168-168S268 4 176 4 8 79 8 171zm230 78c-39-24-89-30-147-17-14 2-16-18-4-20 64-15 118-8 162 19 11 7 0 24-11 18zm17-45c-45-28-114-36-167-20-17 5-23-21-7-25 61-18 136-9 188 23 14 9 0 31-14 22zM80 133c-17 6-28-23-9-30 59-18 159-15 221 22 17 9 1 37-17 27-54-32-144-35-195-19zm379 91c-17 0-33-6-47-20-1 0-1 1-1 1l-16 19c-1 1-1 2 0 3 18 16 40 24 64 24 34 0 55-19 55-47 0-24-15-37-50-46-29-7-34-12-34-22s10-16 23-16 25 5 39 15c0 0 1 1 2 1s1-1 1-1l14-20c1-1 1-1 0-2-16-13-35-20-56-20-31 0-53 19-53 46 0 29 20 38 52 46 28 6 32 12 32 22 0 11-10 17-25 17zm95-77v-13c0-1-1-2-2-2h-26c-1 0-2 1-2 2v147c0 1 1 2 2 2h26c1 0 2-1 2-2v-46c10 11 21 16 36 16 27 0 54-21 54-61s-27-60-54-60c-15 0-26 5-36 17zm30 78c-18 0-31-15-31-35s13-34 31-34 30 14 30 34-12 35-30 35zm68-34c0 34 27 60 62 60s62-27 62-61-26-60-61-60-63 27-63 61zm30-1c0-20 13-34 32-34s33 15 33 35-13 34-32 34-33-15-33-35zm140-58v-29c0-1 0-2-1-2h-26c-1 0-2 1-2 2v29h-13c-1 0-2 1-2 2v22c0 1 1 2 2 2h13v58c0 23 11 35 34 35 9 0 18-2 25-6 1 0 1-1 1-2v-21c0-1 0-2-1-2h-2c-5 3-11 4-16 4-8 0-12-4-12-12v-54h30c1 0 2-1 2-2v-22c0-1-1-2-2-2h-30zm129-3c0-11 4-15 13-15 5 0 10 0 15 2h1s1-1 1-2V93c0-1 0-2-1-2-5-2-12-3-22-3-24 0-36 14-36 39v5h-13c-1 0-2 1-2 2v22c0 1 1 2 2 2h13v89c0 1 1 2 2 2h26c1 0 1-1 1-2v-89h25l37 89c-4 9-8 11-14 11-5 0-10-1-15-4h-1l-1 1-9 19c0 1 0 3 1 3 9 5 17 7 27 7 19 0 30-9 39-33l45-116v-2c0-1-1-1-2-1h-27c-1 0-1 1-1 2l-28 78-30-78c0-1-1-2-2-2h-44v-3zm-83 3c-1 0-2 1-2 2v113c0 1 1 2 2 2h26c1 0 1-1 1-2V134c0-1 0-2-1-2h-26zm-6-33c0 10 9 19 19 19s18-9 18-19-8-18-18-18-19 8-19 18zm245 69c10 0 19-8 19-18s-9-18-19-18-18 8-18 18 8 18 18 18zm0-34c9 0 17 7 17 16s-8 16-17 16-16-7-16-16 7-16 16-16zm4 18c3-1 5-3 5-6 0-4-4-6-8-6h-8v19h4v-6h4l4 6h5zm-3-9c2 0 4 1 4 3s-2 3-4 3h-4v-6h4z">
-                            </path>
-                        </svg>
-                    </div>
-                    <ul>
-                        <li class="test">
-                            <a href="home.html" class="position active">
-                                <svg width="24" height="28" xmlns="http://www.w3.org/2000/svg" class="svg-icon">
-                                    <path d="M12 0L0 7.25581V24H8.93752V14.1563H15.0625V24H24V7.25581L12 0Z"
-                                        fill="currentColor">
-                                    </path>
-                                </svg>
-                                Home
-                            </a>
-                        </li>
-                        <li class="test">
-                            <a hre="#" class="position">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg" class="svg-icon">
-                                    <path
-                                        d="M23.7728 22.6943L17.5762 16.5969C19.1989 14.834 20.1959 12.5024 20.1959 9.93683C20.1951 4.44852 15.6745 0 10.0976 0C4.52065 0 0 4.44852 0 9.93683C0 15.4251 4.52065 19.8737 10.0976 19.8737C12.5072 19.8737 14.7172 19.0402 16.4532 17.6546L22.6738 23.7761C22.9769 24.0746 23.469 24.0746 23.7721 23.7761C24.0759 23.4775 24.0759 22.9929 23.7728 22.6943ZM10.0976 18.3448C5.37889 18.3448 1.55365 14.5804 1.55365 9.93683C1.55365 5.29321 5.37889 1.52884 10.0976 1.52884C14.8163 1.52884 18.6415 5.29321 18.6415 9.93683C18.6415 14.5804 14.8163 18.3448 10.0976 18.3448Z"
-                                        fill="currentColor"></path>
-                                </svg>
-                                Search
-                            </a>
-                        </li>
-                        <li class="test">
-                            <a hre="#" class="position">
-                                <svg viewBox="0 0 512 512" width="24" height="24" xmlns="http://www.w3.org/2000/svg"
-                                    class="svg-icon">
-                                    <path
-                                        d="M311.873 77.46l166.349 373.587-39.111 17.27-166.349-373.587zM64 463.746v-384h42.666v384h-42.666zM170.667 463.746v-384h42.667v384h-42.666z"
-                                        fill="currentColor"></path>
-                                </svg>
-                                Search
-                            </a>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li class="test">
-                            <a href="#" class="position">
-                                <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
-                                    class="svg-icon">
-                                    <path
-                                        d="M19.7143 0.5L4.28569 0.5C0 0.5 0 0.5 0 4.78569V20.2143C0 24.5 0 24.5 4.28569 24.5H19.7143C24 24.5 24 24.5 24 20.2143V4.78569C24 0.5 24 0.5 19.7143 0.5ZM16.2857 13.3571H12.8571V16.7857C12.8571 17.2591 12.4734 17.6429 12 17.6429C11.5266 17.6429 11.1428 17.2591 11.1428 16.7857V13.3571H7.71428C7.24088 13.3571 6.85712 12.9734 6.85712 12.5C6.85712 12.0266 7.24088 11.6428 7.71428 11.6428H11.1429V8.21428C11.1429 7.74088 11.5266 7.35712 12 7.35712C12.4734 7.35712 12.8571 7.74088 12.8571 8.21428V11.6429H16.2857C16.7591 11.6429 17.1429 12.0266 17.1429 12.5C17.1429 12.9734 16.7591 13.3571 16.2857 13.3571Z"
-                                        fill="currentColor"></path>
-                                </svg>
-                                Create Playlist
-                            </a>
-                        </li>
-                        <li class="test">
-                            <a href="#" class="position">
-                                <img src="https://misc.scdn.co/liked-songs/liked-songs-300.png"
-                                    style="height: 24px; width: 24px; border-radius: 1px;" class="svg-icon">
-                                Liked Songs
-                            </a>
-                        </li>
-                    </ul>
-                    <hr>
-                    <div>
-                        <ul class="third-ul">
-                            <li class="li-position">Funky Heavy Bluesy</li>
-                            <li class="li-position">Your Top Songs 2020</li>
-                            <li class="li-position">In Love With You - Erykah B...</li>
-                            <li class="li-position">This is Rod Stewart</li>
-                            <li class="li-position">FRANCHISE ft. Young Thug ...</li>
-                            <li class="li-position">Your Top Songs 2019</li>
-                            <li class="li-position">Palleggio</li>
-                            <li class="li-position">This Is Joe Bonamassa</li>
-                            <li class="li-position">Jun19</li>
-                            <li class="li-position">Jack 30th Party 2</li>
-                            <li class="li-position">Jack 30th Party 1</li>
-                            <li class="li-position">This Is Opeth</li>
-                            <li class="li-position">Metal Ballads</li>
-                            <li class="li-position">New Playlist</li>
-                            <li class="li-position">Your Top Songs 2018</li>
-                            <li class="li-position">Jazz Classics Blue Note Editi...</li>
-                        </ul>
-                        <ul>
-                            <li class="test">
-                                <a hre="#" class="position">
-                                    <svg role="img" height="24" width="24" viewBox="0 0 24 24"
-                                        class="Svg-sc-1bi12j5-0 fIDrcz" class="svg-icon">
-                                        <path d="M11.5 0C5.149 0 0 5.148 0 11.5 0 17.851 5.149 23 11.5 23S23 17.851 23 11.5C23 5.148 17.851 0 11.5 0zm0 
+  <div id="left" class="column">
+    <div class="bottom">
+      <nav class="root-nav">
+        <div class="sidebar">
+          <div class="logo">
+            <svg viewbox="0 0 1134 340" class="spotify-logo">
+              <title>Spotify</title>
+              <path fill="currentColor"
+                d="M8 171c0 92 76 168 168 168s168-76 168-168S268 4 176 4 8 79 8 171zm230 78c-39-24-89-30-147-17-14 2-16-18-4-20 64-15 118-8 162 19 11 7 0 24-11 18zm17-45c-45-28-114-36-167-20-17 5-23-21-7-25 61-18 136-9 188 23 14 9 0 31-14 22zM80 133c-17 6-28-23-9-30 59-18 159-15 221 22 17 9 1 37-17 27-54-32-144-35-195-19zm379 91c-17 0-33-6-47-20-1 0-1 1-1 1l-16 19c-1 1-1 2 0 3 18 16 40 24 64 24 34 0 55-19 55-47 0-24-15-37-50-46-29-7-34-12-34-22s10-16 23-16 25 5 39 15c0 0 1 1 2 1s1-1 1-1l14-20c1-1 1-1 0-2-16-13-35-20-56-20-31 0-53 19-53 46 0 29 20 38 52 46 28 6 32 12 32 22 0 11-10 17-25 17zm95-77v-13c0-1-1-2-2-2h-26c-1 0-2 1-2 2v147c0 1 1 2 2 2h26c1 0 2-1 2-2v-46c10 11 21 16 36 16 27 0 54-21 54-61s-27-60-54-60c-15 0-26 5-36 17zm30 78c-18 0-31-15-31-35s13-34 31-34 30 14 30 34-12 35-30 35zm68-34c0 34 27 60 62 60s62-27 62-61-26-60-61-60-63 27-63 61zm30-1c0-20 13-34 32-34s33 15 33 35-13 34-32 34-33-15-33-35zm140-58v-29c0-1 0-2-1-2h-26c-1 0-2 1-2 2v29h-13c-1 0-2 1-2 2v22c0 1 1 2 2 2h13v58c0 23 11 35 34 35 9 0 18-2 25-6 1 0 1-1 1-2v-21c0-1 0-2-1-2h-2c-5 3-11 4-16 4-8 0-12-4-12-12v-54h30c1 0 2-1 2-2v-22c0-1-1-2-2-2h-30zm129-3c0-11 4-15 13-15 5 0 10 0 15 2h1s1-1 1-2V93c0-1 0-2-1-2-5-2-12-3-22-3-24 0-36 14-36 39v5h-13c-1 0-2 1-2 2v22c0 1 1 2 2 2h13v89c0 1 1 2 2 2h26c1 0 1-1 1-2v-89h25l37 89c-4 9-8 11-14 11-5 0-10-1-15-4h-1l-1 1-9 19c0 1 0 3 1 3 9 5 17 7 27 7 19 0 30-9 39-33l45-116v-2c0-1-1-1-2-1h-27c-1 0-1 1-1 2l-28 78-30-78c0-1-1-2-2-2h-44v-3zm-83 3c-1 0-2 1-2 2v113c0 1 1 2 2 2h26c1 0 1-1 1-2V134c0-1 0-2-1-2h-26zm-6-33c0 10 9 19 19 19s18-9 18-19-8-18-18-18-19 8-19 18zm245 69c10 0 19-8 19-18s-9-18-19-18-18 8-18 18 8 18 18 18zm0-34c9 0 17 7 17 16s-8 16-17 16-16-7-16-16 7-16 16-16zm4 18c3-1 5-3 5-6 0-4-4-6-8-6h-8v19h4v-6h4l4 6h5zm-3-9c2 0 4 1 4 3s-2 3-4 3h-4v-6h4z">
+              </path>
+            </svg>
+          </div>
+          <ul>
+            <li class="test">
+              <a href="home.html" class="position active">
+                <svg width="24" height="28" xmlns="http://www.w3.org/2000/svg" class="svg-icon">
+                  <path d="M12 0L0 7.25581V24H8.93752V14.1563H15.0625V24H24V7.25581L12 0Z" fill="currentColor">
+                  </path>
+                </svg>
+                Home
+              </a>
+            </li>
+            <li class="test">
+              <a hre="#" class="position">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                  class="svg-icon">
+                  <path
+                    d="M23.7728 22.6943L17.5762 16.5969C19.1989 14.834 20.1959 12.5024 20.1959 9.93683C20.1951 4.44852 15.6745 0 10.0976 0C4.52065 0 0 4.44852 0 9.93683C0 15.4251 4.52065 19.8737 10.0976 19.8737C12.5072 19.8737 14.7172 19.0402 16.4532 17.6546L22.6738 23.7761C22.9769 24.0746 23.469 24.0746 23.7721 23.7761C24.0759 23.4775 24.0759 22.9929 23.7728 22.6943ZM10.0976 18.3448C5.37889 18.3448 1.55365 14.5804 1.55365 9.93683C1.55365 5.29321 5.37889 1.52884 10.0976 1.52884C14.8163 1.52884 18.6415 5.29321 18.6415 9.93683C18.6415 14.5804 14.8163 18.3448 10.0976 18.3448Z"
+                    fill="currentColor"></path>
+                </svg>
+                Search
+              </a>
+            </li>
+            <li class="test">
+              <a hre="#" class="position">
+                <svg viewBox="0 0 512 512" width="24" height="24" xmlns="http://www.w3.org/2000/svg" class="svg-icon">
+                  <path
+                    d="M311.873 77.46l166.349 373.587-39.111 17.27-166.349-373.587zM64 463.746v-384h42.666v384h-42.666zM170.667 463.746v-384h42.667v384h-42.666z"
+                    fill="currentColor"></path>
+                </svg>
+                Search
+              </a>
+            </li>
+          </ul>
+          <ul>
+            <li class="test">
+              <a href="#" class="position">
+                <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="svg-icon">
+                  <path
+                    d="M19.7143 0.5L4.28569 0.5C0 0.5 0 0.5 0 4.78569V20.2143C0 24.5 0 24.5 4.28569 24.5H19.7143C24 24.5 24 24.5 24 20.2143V4.78569C24 0.5 24 0.5 19.7143 0.5ZM16.2857 13.3571H12.8571V16.7857C12.8571 17.2591 12.4734 17.6429 12 17.6429C11.5266 17.6429 11.1428 17.2591 11.1428 16.7857V13.3571H7.71428C7.24088 13.3571 6.85712 12.9734 6.85712 12.5C6.85712 12.0266 7.24088 11.6428 7.71428 11.6428H11.1429V8.21428C11.1429 7.74088 11.5266 7.35712 12 7.35712C12.4734 7.35712 12.8571 7.74088 12.8571 8.21428V11.6429H16.2857C16.7591 11.6429 17.1429 12.0266 17.1429 12.5C17.1429 12.9734 16.7591 13.3571 16.2857 13.3571Z"
+                    fill="currentColor"></path>
+                </svg>
+                Create Playlist
+              </a>
+            </li>
+            <li class="test">
+              <a href="#" class="position">
+                <img src="https://misc.scdn.co/liked-songs/liked-songs-300.png"
+                  style="height: 24px; width: 24px; border-radius: 1px;" class="svg-icon">
+                Liked Songs
+              </a>
+            </li>
+          </ul>
+          <hr>
+          <div>
+            <ul class="third-ul">
+              <li class="li-position">Funky Heavy Bluesy</li>
+              <li class="li-position">Your Top Songs 2020</li>
+              <li class="li-position">In Love With You - Erykah B...</li>
+              <li class="li-position">This is Rod Stewart</li>
+              <li class="li-position">FRANCHISE ft. Young Thug ...</li>
+              <li class="li-position">Your Top Songs 2019</li>
+              <li class="li-position">Palleggio</li>
+              <li class="li-position">This Is Joe Bonamassa</li>
+              <li class="li-position">Jun19</li>
+              <li class="li-position">Jack 30th Party 2</li>
+              <li class="li-position">Jack 30th Party 1</li>
+              <li class="li-position">This Is Opeth</li>
+              <li class="li-position">Metal Ballads</li>
+              <li class="li-position">New Playlist</li>
+              <li class="li-position">Your Top Songs 2018</li>
+              <li class="li-position">Jazz Classics Blue Note Editi...</li>
+            </ul>
+            <ul>
+              <li class="test">
+                <a hre="#" class="position">
+                  <svg role="img" height="24" width="24" viewBox="0 0 24 24" class="Svg-sc-1bi12j5-0 fIDrcz"
+                    class="svg-icon">
+                    <path d="M11.5 0C5.149 0 0 5.148 0 11.5 0 17.851 5.149 23 11.5 23S23 17.851 23 11.5C23 5.148 17.851 0 11.5 0zm0 
                                           22C5.71 22 1 17.29 1 11.5S5.71 1 11.5 1 22 5.71 22 11.5 17.29 22 11.5 22zm.499-6.842V5h-1v10.149l-3.418-3.975-.758.652 
                                           4.678 5.44 4.694-5.439-.757-.653-3.439 3.984z" fill="currentColor">
-                                        </path>
-                                    </svg>
-                                    Install App
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+                    </path>
+                  </svg>
+                  Install App
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </nav>
     </div>
+  </div>
 
-    <div id="right" class="column">
-        <div class="bottom">
-            <div id="main">
-                <nav>
-                    <div class="main-scroll my-3">
-                        <div class="arrows">
-                            <button type="button" class="btn btn-dark" style="margin: 10px; padding: 10px; background-color: rgba(7, 7, 7, 0.664); border: transparent;">
-                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30"
-                                    viewBox="0 0 172 172" style="fill: #000000">
-                                    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
-                                        stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray=""
-                                        stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none"
-                                        text-anchor="none" style="mix-blend-mode: normal">
-                                        <path d="M0,172v-172h172v172z" fill="none"></path>
-                                        <g fill="#ffffff">
-                                            <path
-                                                d="M120.26563,10.25281c-1.78719,0.05375 -3.48031,0.80625 -4.73,2.08281l-68.8,68.8c-2.6875,2.6875 -2.6875,7.04125 0,9.72875l68.8,68.8c1.72,1.80062 4.28656,2.52625 6.70531,1.89469c2.40531,-0.63156 4.28656,-2.51281 4.91813,-4.91813c0.63156,-2.41875 -0.09406,-4.98531 -1.89469,-6.70531l-63.93563,-63.93563l63.93563,-63.93562c2.02906,-1.97531 2.64719,-4.99875 1.54531,-7.61906c-1.11531,-2.60688 -3.70875,-4.27313 -6.54406,-4.1925z">
-                                            </path>
-                                        </g>
-                                    </g>
-                                </svg>
-                            </button>
+  <div id="right" class="column">
+    <div class="bottom">
+      <div id="main">
+        
+        <nav>
+          <div class="main-scroll my-3">
+            <div class="arrows">
+              <button type="button" class="btn btn-dark"
+                style="margin: 10px 0px 10px 0px; padding: 10px; background-color: rgba(7, 7, 7, 0.664); border: transparent;">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 172 172"
+                  style="fill: #000000">
+                  <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                    stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                    font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                    style="mix-blend-mode: normal">
+                    <path d="M0,172v-172h172v172z" fill="none"></path>
+                    <g fill="#ffffff">
+                      <path
+                        d="M120.26563,10.25281c-1.78719,0.05375 -3.48031,0.80625 -4.73,2.08281l-68.8,68.8c-2.6875,2.6875 -2.6875,7.04125 0,9.72875l68.8,68.8c1.72,1.80062 4.28656,2.52625 6.70531,1.89469c2.40531,-0.63156 4.28656,-2.51281 4.91813,-4.91813c0.63156,-2.41875 -0.09406,-4.98531 -1.89469,-6.70531l-63.93563,-63.93563l63.93563,-63.93562c2.02906,-1.97531 2.64719,-4.99875 1.54531,-7.61906c-1.11531,-2.60688 -3.70875,-4.27313 -6.54406,-4.1925z">
+                      </path>
+                    </g>
+                  </g>
+                </svg>
+              </button>
 
-                            <button type="button" class="btn btn-dark" style="margin: 10px; padding: 10px; background-color: rgba(7, 7, 7, 0.664); border: transparent;">
-                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30"
-                                    viewBox="0 0 172 172" style="fill: #000000">
-                                    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
-                                        stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray=""
-                                        stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none"
-                                        text-anchor="none" style="mix-blend-mode: normal">
-                                        <path d="M0,172v-172h172v172z" fill="none"></path>
-                                        <g fill="#ffffff">
-                                            <path
-                                                d="M51.53281,10.25281c-2.80844,0 -5.32125,1.70656 -6.36938,4.3c-1.06156,2.59344 -0.43,5.56312 1.57219,7.51156l63.93562,63.93562l-63.93562,63.93563c-1.80063,1.72 -2.52625,4.28656 -1.89469,6.70531c0.63156,2.40531 2.51281,4.28656 4.91813,4.91813c2.41875,0.63156 4.98531,-0.09406 6.70531,-1.89469l68.8,-68.8c2.6875,-2.6875 2.6875,-7.04125 0,-9.72875l-68.8,-68.8c-1.30344,-1.33031 -3.07719,-2.08281 -4.93156,-2.08281z">
-                                            </path>
-                                        </g>
-                                    </g>
-                                </svg>
-                            </button>
-                        </div>
-                    </div>
-                </nav>
-                <div class="titlegm my-1">
-                    <h2>Good morning</h2>
-                </div>
-
-                <div class="row row-cols-2 row-cols-md-4">
-
-                    <div class="card mb-4" style="max-width: 340px; margin-right: 20px;">
-                        <div class="row no-gutters">
-                        <div class="col-md-4">
-                            <img src="https://raw.githubusercontent.com/sleepymarcy/Build-Week-1/Develop/covers/demo.jpeg" alt="..." style="width: 95px; height: 98px; margin: auto">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                            <h5 class="card-title">Burning Jazz-rock fusion</h5>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-
-                    <div class="card mb-2 mt-8" style="max-width: 340px;">
-                        <div class="row no-gutters">
-                        <div class="col-md-4">
-                            <img src="https://raw.githubusercontent.com/sleepymarcy/Build-Week-1/Develop/covers/liked.png"
-                                            alt="demo-cd" style="width: 95px; height: 98px; margin: auto; border-radius: 5%;">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                            <h5 class="card-title">Liked Songs</h5>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-
-                    <div class="card mb-2 mt-8" style="max-width: 340px;">
-                        <div class="row no-gutters">
-                        <div class="col-md-4">
-                            <img src="https://raw.githubusercontent.com/sleepymarcy/Build-Week-1/Develop/covers/demo.jpeg" alt="..." style="width: 95px; height: 98px; margin: auto">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-
-                    <div class="card mb-2 mt-8" style="max-width: 340px;">
-                        <div class="row no-gutters">
-                        <div class="col-md-4">
-                            <img src="https://raw.githubusercontent.com/sleepymarcy/Build-Week-1/Develop/covers/demo.jpeg" alt="..." style="width: 95px; height: 98px; margin: auto">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-
-                    <div class="card mb-2 mt-8" style="max-width: 340px;">
-                        <div class="row no-gutters">
-                        <div class="col-md-4">
-                            <img src="https://raw.githubusercontent.com/sleepymarcy/Build-Week-1/Develop/covers/demo.jpeg" alt="..." style="width: 95px; height: 98px; margin: auto">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-
-                    <div class="card mb-2 mt-8" style="max-width: 340px;">
-                        <div class="row no-gutters">
-                        <div class="col-md-4">
-                            <img src="https://raw.githubusercontent.com/sleepymarcy/Build-Week-1/Develop/covers/demo.jpeg" alt="..." style="width: 95px; height: 98px; margin: auto">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-
-                    <div class="card mb-2 mt-8" style="max-width: 340px;">
-                        <div class="row no-gutters">
-                        <div class="col-md-4">
-                            <img src="https://raw.githubusercontent.com/sleepymarcy/Build-Week-1/Develop/covers/demo.jpeg" alt="..." style="width: 95px; height: 98px; margin: auto">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    
-                    <div class="card mb-2 mt-8" style="max-width: 340px;">
-                        <div class="row no-gutters">
-                        <div class="col-md-4">
-                            <img src="https://raw.githubusercontent.com/sleepymarcy/Build-Week-1/Develop/covers/demo.jpeg" alt="..." style="width: 95px; height: 98px; margin: auto">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-
-                
-
-
-                <div class="mb-3 mt-8 gm">
-                    <div class="row mx-n5 row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-xl-5 mb-4">
-                        <div class="col gmcard">
-                            <div class="card mb-2" style="width: 290px; height: 100px; border-radius: 5%">
-                                <div class="row no-gutters">
-                                    <div class="col-md-4">
-                                        <img src="https://raw.githubusercontent.com/sleepymarcy/Build-Week-1/Develop/covers/demo.jpeg"
-                                            alt="demo-cd" style="width: 95px; height: 98px; margin: auto" />
-                                    </div>
-                                    <div class="col-md-8">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Burning Jazz-rock Fusion</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col gmcard">
-                            <div class="card mb-2" style="width: 250px; height: 100px; border-radius: 5%">
-                                <div class="row no-gutters">
-                                    <div class="col-md-4">
-                                        <img src="https://raw.githubusercontent.com/sleepymarcy/Build-Week-1/Develop/covers/liked.png"
-                                            alt="demo-cd" style="width: 95px; height: 98px; margin: auto; border-radius: 5%;">
-                                    </div>
-                                    <div class="col-md-8">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Liked Songs</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col gmcard" style="border-radius: 30%">
-                            <div class="card mb-2" style="width: 250px; height: 100px; border-radius: 5%">
-                                <div class="row no-gutters">
-                                    <div class="col-md-4">
-                                        <img src="https://raw.githubusercontent.com/sleepymarcy/Build-Week-1/Develop/covers/mb.jpeg"
-                                        alt="demo-cd" style="width: 95px; height: 98px; margin: auto; border-radius: 5%;">
-                                    </div>
-                                    <div class="col-md-8">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Metal Ballads</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col gmcard">
-                            <div class="card mb-2" style="width: 250px; height: 100px; border-radius: 5%">
-                                <div class="row no-gutters">
-                                    <div class="col-md-4">
-                                        <img src="https://raw.githubusercontent.com/sleepymarcy/Build-Week-1/Develop/covers/phs.jpeg"
-                                        alt="demo-cd" style="width: 95px; height: 98px; margin: auto; border-radius: 5%;">
-                                    </div>
-                                    <div class="col-md-8">
-                                        <div class="card-body">
-                                            <h5 class="card-title">POST HUMAN:SURVIVAL HORROR</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col gmcard">
-                            <div class="card mb-2" style="width: 250px; height: 100px; border-radius: 5%">
-                                <div class="row no-gutters">
-                                    <div class="col-md-4">
-                                        <img src="https://raw.githubusercontent.com/sleepymarcy/Build-Week-1/Develop/covers/joe.jpeg"
-                                        alt="demo-cd" style="width: 95px; height: 98px; margin: auto; border-radius: 5%;">
-                                    </div>
-                                    <div class="col-md-8">
-                                        <div class="card-body">
-                                            <h5 class="card-title">This is Joe Bonamassa</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col gmcard">
-                            <div class="card mb-2" style="width: 250px; height: 100px; border-radius: 5%">
-                                <div class="row no-gutters">
-                                    <div class="col-md-4">
-                                        <img src="https://raw.githubusercontent.com/sleepymarcy/Build-Week-1/Develop/covers/midian.jpeg"
-                                        alt="demo-cd" style="width: 95px; height: 98px; margin: auto; border-radius: 5%;">
-                                    </div>
-                                    <div class="col-md-8">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Midian</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col gmcard">
-                            <div class="card mb-2" style="width: 250px; height: 100px; border-radius: 5%">
-                                <div class="row no-gutters">
-                                    <div class="col-md-4">
-                                        <img src="https://raw.githubusercontent.com/sleepymarcy/Build-Week-1/Develop/covers/nym.jpeg"
-                                        alt="demo-cd" style="width: 95px; height: 98px; margin: auto; border-radius: 5%;">
-                                    </div>
-                                    <div class="col-md-8">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Nymphetamine</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col gmcard">
-                            <div class="card mb-2" style="width: 250px; height: 100px; border-radius: 5%">
-                                <div class="row no-gutters">
-                                    <div class="col-md-4">
-                                        <img src="https://raw.githubusercontent.com/sleepymarcy/Build-Week-1/Develop/covers/amo.jpeg"
-                                            alt="demo-cd" style="width: 95px; height: 98px; margin: auto" />
-                                    </div>
-                                    <div class="col-md-8">
-                                        <div class="card-body">
-                                            <h5 class="card-title">amo</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col gmcard">
-                            <div class="card mb-2" style="width: 250px; height: 100px; border-radius: 5%">
-                                <div class="row no-gutters">
-                                    <div class="col-md-4">
-                                        <img src="https://raw.githubusercontent.com/sleepymarcy/Build-Week-1/Develop/covers/bask.jpeg"
-                                            alt="demo-cd" style="width: 95px; height: 98px; margin: auto" />
-                                    </div>
-                                    <div class="col-md-8">
-                                        <div class="card-body">
-                                            <h5 class="card-title">LE BASK</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col gmcard">
-                            <div class="card mb-2" style="width: 250px; height: 100px; border-radius: 5%">
-                                <div class="row no-gutters">
-                                    <div class="col-md-4">
-                                        <img src="https://raw.githubusercontent.com/sleepymarcy/Build-Week-1/Develop/covers/opeth.jpeg"
-                                            alt="demo-cd" style="width: 95px; height: 98px; margin: auto" />
-                                    </div>
-                                    <div class="col-md-8">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Opeth</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              <button type="button" class="btn btn-dark"
+                style="padding: 10px; background-color: rgba(7, 7, 7, 0.664); border: transparent;">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 172 172"
+                  style="fill: #000000">
+                  <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                    stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                    font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                    style="mix-blend-mode: normal">
+                    <path d="M0,172v-172h172v172z" fill="none"></path>
+                    <g fill="#ffffff">
+                      <path
+                        d="M51.53281,10.25281c-2.80844,0 -5.32125,1.70656 -6.36938,4.3c-1.06156,2.59344 -0.43,5.56312 1.57219,7.51156l63.93562,63.93562l-63.93562,63.93563c-1.80063,1.72 -2.52625,4.28656 -1.89469,6.70531c0.63156,2.40531 2.51281,4.28656 4.91813,4.91813c2.41875,0.63156 4.98531,-0.09406 6.70531,-1.89469l68.8,-68.8c2.6875,-2.6875 2.6875,-7.04125 0,-9.72875l-68.8,-68.8c-1.30344,-1.33031 -3.07719,-2.08281 -4.93156,-2.08281z">
+                      </path>
+                    </g>
+                  </g>
+                </svg>
+              </button>
             </div>
+          </div>
+        </nav>
+
+        <div class="titlegm my-1">
+          <h2>Good morning</h2>
         </div>
 
+      <div class="container-fluid mb-4">
+        <div class="row row-cols-sm-2 row-cols-md-3 row-cols-lg-5 row-cols-xl-5">
+
+          <div class="card mb-3" style="max-width: 300px; margin-right: 20px;">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="/covers/demo.jpeg" alt="..."
+                  style="width: 95px; height: 98px; margin: auto">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Burning Jazz-rock fusion</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3" style="max-width: 300px; margin-right: 20px;">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="/covers/liked.png" alt="..."
+                  style="width: 95px; height: 98px; margin: auto">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Liked Songs</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3" style="max-width: 300px; margin-right: 20px;">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="/covers/mb.jpeg" alt="..."
+                  style="width: 95px; height: 98px; margin: auto">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Metal Ballads</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3" style="max-width: 300px; margin-right: 20px;">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="/covers/phs.jpeg" alt="..."
+                  style="width: 95px; height: 98px; margin: auto">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">POST HUMAN: SURVIVAL...</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3" style="max-width: 300px; margin-right: 20px;">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="/covers/joe.jpeg" alt="..."
+                  style="width: 95px; height: 98px; margin: auto">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">This Is Joe Bonamassa</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3" style="max-width: 300px; margin-right: 20px;">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="/covers/midian.jpeg" alt="..."
+                  style="width: 95px; height: 98px; margin: auto">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Midian</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3" style="max-width: 300px; margin-right: 20px;">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="/covers/nym.jpeg" alt="..."
+                  style="width: 95px; height: 98px; margin: auto">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Nymphetamine</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3" style="max-width: 300px; margin-right: 20px;">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="covers/amo.jpeg" alt="..."
+                  style="width: 95px; height: 98px; margin: auto">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">amo</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3" style="max-width: 300px; margin-right: 20px;">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="/covers/bask.jpeg" alt="..."
+                  style="width: 95px; height: 98px; margin: auto">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">LE BASK</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3" style="max-width: 300px; margin-right: 20px;">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="covers/opeth.jpeg" alt="..."
+                  style="width: 95px; height: 98px; margin: auto">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Opeth</h5>
+                </div>
+              </div>
+            </div>
+          </div>
 
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+          <!-- <div class="mb-3 mt-8 gm">
+            <div class="row mx-n5 row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-xl-5 mb-4">
+              <div class="col gmcard">
+                <div class="card mb-2" style="width: 290px; height: 100px; border-radius: 5%">
+                  <div class="row no-gutters">
+                    <div class="col-md-4">
+                      <img src="https://raw.githubusercontent.com/sleepymarcy/Build-Week-1/Develop/covers/demo.jpeg"
+                        alt="demo-cd" style="width: 95px; height: 98px; margin: auto" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Burning Jazz-rock Fusion</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col gmcard">
+                <div class="card mb-2" style="width: 250px; height: 100px; border-radius: 5%">
+                  <div class="row no-gutters">
+                    <div class="col-md-4">
+                      <img src="https://raw.githubusercontent.com/sleepymarcy/Build-Week-1/Develop/covers/liked.png"
+                        alt="demo-cd" style="width: 95px; height: 98px; margin: auto; border-radius: 5%;">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Liked Songs</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col gmcard" style="border-radius: 30%">
+                <div class="card mb-2" style="width: 250px; height: 100px; border-radius: 5%">
+                  <div class="row no-gutters">
+                    <div class="col-md-4">
+                      <img src="https://raw.githubusercontent.com/sleepymarcy/Build-Week-1/Develop/covers/mb.jpeg"
+                        alt="demo-cd" style="width: 95px; height: 98px; margin: auto; border-radius: 5%;">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Metal Ballads</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col gmcard">
+                <div class="card mb-2" style="width: 250px; height: 100px; border-radius: 5%">
+                  <div class="row no-gutters">
+                    <div class="col-md-4">
+                      <img src="https://raw.githubusercontent.com/sleepymarcy/Build-Week-1/Develop/covers/phs.jpeg"
+                        alt="demo-cd" style="width: 95px; height: 98px; margin: auto; border-radius: 5%;">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">POST HUMAN:SURVIVAL HORROR</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col gmcard">
+                <div class="card mb-2" style="width: 250px; height: 100px; border-radius: 5%">
+                  <div class="row no-gutters">
+                    <div class="col-md-4">
+                      <img src="https://raw.githubusercontent.com/sleepymarcy/Build-Week-1/Develop/covers/joe.jpeg"
+                        alt="demo-cd" style="width: 95px; height: 98px; margin: auto; border-radius: 5%;">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">This is Joe Bonamassa</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col gmcard">
+                <div class="card mb-2" style="width: 250px; height: 100px; border-radius: 5%">
+                  <div class="row no-gutters">
+                    <div class="col-md-4">
+                      <img src="https://raw.githubusercontent.com/sleepymarcy/Build-Week-1/Develop/covers/midian.jpeg"
+                        alt="demo-cd" style="width: 95px; height: 98px; margin: auto; border-radius: 5%;">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Midian</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col gmcard">
+                <div class="card mb-2" style="width: 250px; height: 100px; border-radius: 5%">
+                  <div class="row no-gutters">
+                    <div class="col-md-4">
+                      <img src="https://raw.githubusercontent.com/sleepymarcy/Build-Week-1/Develop/covers/nym.jpeg"
+                        alt="demo-cd" style="width: 95px; height: 98px; margin: auto; border-radius: 5%;">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Nymphetamine</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col gmcard">
+                <div class="card mb-2" style="width: 250px; height: 100px; border-radius: 5%">
+                  <div class="row no-gutters">
+                    <div class="col-md-4">
+                      <img src="https://raw.githubusercontent.com/sleepymarcy/Build-Week-1/Develop/covers/amo.jpeg"
+                        alt="demo-cd" style="width: 95px; height: 98px; margin: auto" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">amo</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col gmcard">
+                <div class="card mb-2" style="width: 250px; height: 100px; border-radius: 5%">
+                  <div class="row no-gutters">
+                    <div class="col-md-4">
+                      <img src="https://raw.githubusercontent.com/sleepymarcy/Build-Week-1/Develop/covers/bask.jpeg"
+                        alt="demo-cd" style="width: 95px; height: 98px; margin: auto" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">LE BASK</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col gmcard">
+                <div class="card mb-2" style="width: 250px; height: 100px; border-radius: 5%">
+                  <div class="row no-gutters">
+                    <div class="col-md-4">
+                      <img src="https://raw.githubusercontent.com/sleepymarcy/Build-Week-1/Develop/covers/opeth.jpeg"
+                        alt="demo-cd" style="width: 95px; height: 98px; margin: auto" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Opeth</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+
+
+
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
         crossorigin="anonymous"></script>
 

@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700;800&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
 }
 body {
-	box-sizing: border-box;
+	overflow: hidden;
 }
 .logo-container {
 	position: relative;
@@ -42,245 +46,175 @@ body {
 	opacity: 0.9;
 	transform: scale(1.04);
 }
-.login-link {
-	background-color: green;
-	color: white;
-	padding-left: 40px;
-	padding-right: 40px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	border-radius: 10px;
-	transition: all 0.03s ease-in;
-}
-.login-link:hover {
-	background-color: rgba(216, 112, 147, 0.671);
-}
 
-/* Bordered form */
-form {
-	border: 3px solid #f1f1f1;
+/* --------------------animations for card--------------------- */
+.box {
+	position: relative;
 }
-
-/* Full-width inputs */
-input[type='text'],
-input[type='password'] {
-	width: 100%;
-	padding: 12px 20px;
-	margin: 8px 0;
-	display: inline-block;
-	border: 1px solid #ccc;
-	box-sizing: border-box;
-}
-
-/* Set a style for all buttons */
-button {
-	background-color: #2ebd5e;
-	color: black;
-	padding: 14px 20px;
-	border: none;
-	cursor: pointer;
-
-	border-radius: 30px;
-	transition: all 0.5s ease-in;
-}
-
-/* Add a hover effect for buttons */
-button:hover {
-	opacity: 0.8;
-	transform: scale(1.03);
-	background-color: rgb(145, 75, 185);
-}
-
-/* Extra style for the cancel button (red) */
-.cancelbtn {
-	width: 200px !important;
-	padding: 10px 18px;
-	background-color: #f44336;
-}
-
-/* Center the avatar image inside this container */
-.imgcontainer {
-	text-align: center;
-	margin: 24px 0 12px 0;
-}
-
-/* Avatar image */
-
-/* Add padding to containers */
-.container {
-	padding: 16px;
-}
-
-/* The "Forgot password" text */
-span.psw {
-	float: right;
-	padding-top: 16px;
-}
-
-/* Change styles for span and cancel button on extra small screens */
-@media screen and (max-width: 300px) {
-	span.psw {
-		display: block;
-		float: none;
-	}
-	.cancelbtn {
-		width: 100%;
-	}
-}
-.modal-content {
-	background-color: #fefefe;
-	margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
-	border: 1px solid #888;
-	width: 80%; /* Could be more or less, depending on screen size */
-}
-
-/* Style the horizontal ruler */
-hr {
-	border: 1px solid #f1f1f1;
-	margin-bottom: 25px;
-}
-
-/* The Close Button (x) */
-.close {
+.box .square {
 	position: absolute;
-	right: 35px;
-	top: 15px;
-	font-size: 40px;
-	font-weight: bold;
-	color: #f1f1f1;
-}
-
-.close:hover,
-.close:focus {
-	color: #f44336;
-	cursor: pointer;
-}
-
-/* Clear floats */
-.clearfix::after {
-	content: '';
-	clear: both;
-	display: table;
-}
-
-/* Change styles for cancel button and signup button on extra small screens */
-@media screen and (max-width: 300px) {
-	.cancelbtn,
-	.signupbtn {
-		width: 100%;
-	}
-}
-
-/* Full-width input fields */
-input[type='text'],
-input[type='password'] {
-	width: 100%;
-	padding: 15px;
-	margin: 5px 0 22px 0;
-	display: inline-block;
-	border: none;
-	background: #f1f1f1;
-}
-
-/* Add a background color when the inputs get focus */
-input[type='text']:focus,
-input[type='password']:focus {
-	background-color: #ddd;
-	outline: none;
-}
-
-/* Set a style for all buttons */
-button {
-	background-color: #04aa6d;
-	color: white;
-	padding: 14px 20px;
-	margin: 8px 0;
-	border: none;
-	cursor: pointer;
-	width: 30%;
-	opacity: 0.9;
-}
-
-button:hover {
-	opacity: 1;
-}
-
-/* Extra styles for the cancel button */
-.cancelbtn {
-	padding: 14px 20px;
-	background-color: #f44336;
-}
-
-/* Float cancel and signup buttons and add an equal width */
-.cancelbtn,
-.signupbtn {
-	float: left;
-	width: 20%;
-}
-
-/* Add padding to container elements */
-.container {
-	padding: 16px;
-}
-
-/* The Modal (background) */
-.modal {
-	display: none; /* Hidden by default */
-	position: fixed; /* Stay in place */
-	z-index: 1; /* Sit on top */
-	left: 0;
-	top: 0;
-	width: 100%; /* Full width */
-	height: 100%; /* Full height */
-	overflow: auto; /* Enable scroll if needed */
-	background-color: #474e5d;
-	padding-top: 50px;
-}
-
-/* Modal Content/Box */
-.modal-content {
-	background-color: #fefefe;
-	margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
-	border: 1px solid #888;
-	width: 80%; /* Could be more or less, depending on screen size */
-}
-
-/* Style the horizontal ruler */
-hr {
-	border: 1px solid #f1f1f1;
-	margin-bottom: 25px;
-}
-
-/* The Close Button (x) */
-.close {
-	position: absolute;
-	right: 100px;
-	top: 65px;
-	font-size: 40px;
-	font-weight: bold;
-	color: #109dee;
-	background-color: white;
-	padding: 10px;
+	background-color: rgba(227, 235, 228, 0.1) !important;
+	backdrop-filter: blur(5px);
+	box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	border-right: 1px solid rgba(255, 255, 255, 0.3);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 	border-radius: 50%;
+	animation: animatebox 10s linear infinite;
+	animation-delay: calc(-1s * var(--i));
 }
-
-.close:hover,
-.close:focus {
-	color: #f44336;
-	cursor: pointer;
-}
-
-/* Clear floats */
-.clearfix::after {
-	content: '';
-	clear: both;
-	display: table;
-}
-
-/* Change styles for cancel button and signup button on extra small screens */
-@media screen and (max-width: 300px) {
-	.cancelbtn,
-	.signupbtn {
-		width: 100%;
+@keyframes animatebox {
+	0%,
+	100% {
+		transform: translateY(-50px);
 	}
+	50% {
+		transform: translateY(50px);
+	}
+}
+.box .square:nth-child(1) {
+	top: -50px;
+	right: -60px;
+	width: 100px;
+	height: 100px;
+}
+.box .square:nth-child(2) {
+	top: 150px;
+	left: -100px;
+	width: 80px;
+	height: 80px;
+	z-index: 3;
+}
+.box .square:nth-child(3) {
+	bottom: 50px;
+	right: -100px;
+	width: 120px;
+	height: 120px;
+	z-index: 3;
+}
+.box .square:nth-child(4) {
+	bottom: -80px;
+	left: 100px;
+	width: 50px;
+	height: 50px;
+}
+.box .square:nth-child(5) {
+	top: -60px;
+	left: -50px;
+	width: 60px;
+	height: 60px;
+}
+
+.form-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 60vh;
+	background: linear-gradient(to bottom, #7da1db, #c36fbf);
+	margin-top: 10px;
+	border-radius: 20px;
+}
+
+.color {
+	position: absolute;
+	filter: blur(350px);
+}
+
+.color:nth-child(1) {
+	top: -350px;
+	width: 600px;
+	height: 600px;
+	background-color: #1623e2;
+}
+.color:nth-child(2) {
+	bottom: -150px;
+	left: 100px;
+	height: 600px;
+	width: 600px;
+	background-color: #eb1426;
+}
+section .color:nth-child(3) {
+	bottom: 50px;
+	right: 100px;
+	height: 300px;
+	width: 300px;
+	background-color: #015a69;
+}
+.form-inside {
+	position: relative;
+	width: 400px;
+	min-height: 400px;
+	background-color: rgba(255, 255, 255, 0.1) !important;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	backdrop-filter: blur(5px);
+	box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	border-right: 1px solid rgba(255, 255, 255, 0.3);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.form {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	padding: 40px;
+}
+.form h3 {
+	position: relative;
+	color: #fff;
+	font-size: 24px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	margin-bottom: 40px;
+}
+.form h3::before {
+	content: '';
+	position: absolute;
+	width: 80px;
+	left: 0;
+	bottom: -10px;
+	height: 4px;
+	background-color: #fff;
+}
+.form .inputBox {
+	margin-top: 20px;
+	width: 100%;
+}
+.form .inputBox input {
+	width: 100%;
+	background: rgba(255, 255, 255, 0.4);
+	border: none;
+	outline: none;
+	padding: 10px 20px;
+	border-radius: 30px;
+	border: 1px solid rgba(255, 255, 255, 0.4);
+	border-right: 1px solid rgba(255, 255, 255, 0.4);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+	font-size: 16px;
+	letter-spacing: 1px;
+	color: black;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.form .inputBox input::placeholder {
+	color: white;
+}
+.form .inputBox input[type='submit'] {
+	background: #fff;
+	color: #666;
+	max-width: 100px;
+	cursor: pointer;
+	margin-bottom: 20px;
+	font-weight: 600;
+}
+.forget,
+.sign-up {
+	margin-top: 5px;
+	color: #fff;
+}
+.forget a,
+.sign-up a {
+	color: rgb(255, 255, 255);
+	font-weight: 600;
 }

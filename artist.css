@@ -1,126 +1,582 @@
 body {
-    margin: 0;
-    font-family: "Lato", sans-serif;
-    background-color: rgba(27, 22, 22, 0.945) !important;
-  }
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  background: rgb(23 21 21 / 99%);
+  background: linear-gradient(
+0deg
+, rgba(1,1,5,1) 24%, rgb(0 0 0 / 85%) 45%); 
+}
 
-  .arrows button {
-    border-radius: 50%;
+.arrows button {
+  border-radius: 50%;
 }
 
 .main-scroll {
-    margin-left: 20px;
-    display: flex;
-    justify-content: space-between;
-    top:0;
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  top: 0;
 }
 
 .navbar-toggler {
-    background-color: rgba(0,0,0,.7);
-    border-radius: 40px;
-    width: 250px;
-    height: 50px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    color:rgb(255, 255, 255);
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    position: relative;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 40px;
+  width: 250px;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  position: relative;
+  right: 239px;
 }
 
 .navbar-toggler span {
-   position: absolute;
-   background-color: transparent;
-   top: 12px;
-   right: 10px;
+  position: absolute;
+  background-color: transparent;
+  top: 12px;
+  right: 10px;
 }
 
 .navbar-toggler p {
-    position: absolute;
-    top: 13px;
-    right: 52px;
+  position: absolute;
+  top: 13px;
+  right: 52px;
 }
-
 
 .navbar-toggler img {
-    vertical-align: middle;
-    border-style: none;
-    left: 1px;
-    position: absolute;
-    top: 0px;
-    height: 47px;
-    border-radius: 50%;
+  vertical-align: middle;
+  border-style: none;
+  left: 1px;
+  position: absolute;
+  top: 0px;
+  height: 47px;
+  border-radius: 50%;
 }
 nav {
-    display:block;
-    left:0;
-    position: absolute;
-    top:0;
-    width: 100%;
+  display: block;
+  left: 260px;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 .nav-artist {
-    background-image:url(/covers/qmaincover.jpeg);
-    background-size: cover;
-    width: auto;
-    height: 40vh;
-    contain:strict;
-    content-visibility: auto;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-attachment: scroll;
-    min-height: 340px;
-    position:relative;
-    z-index:2;
+  background-image: url(/covers/qmaincover.jpeg);
+  background-size: cover;
+  width: 100%;
+  left: -26px;
+  height: 40vh;
+  contain: strict;
+  content-visibility: auto;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-attachment: scroll;
+  min-height: 310px;
+  position: relative;
+  z-index: 2;
 }
 
 .artistTitle h1 {
-    position:absolute;
-    top:240px;
-    left:40px;
-    transform: (-50%, -50%);
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    font-size: 10rem;
-    letter-spacing: -5px;
+  position: absolute;
+  top: 240px;
+  left: 40px;
+  transform: (-50%, -50%);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 10rem;
+  letter-spacing: -5px;
 }
 
 .artistTitle h6 {
-    position:absolute;
-    top:420px;
-    left:45px;
-    color: rgb(255, 255, 255); 
-    font-weight: bold;  
-    font-size: 1,8rem;
-    display: inline;
+  position: absolute;
+  top: 420px;
+  left: 45px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 1, 8rem;
+  display: inline;
 }
 
-.artistTitle h5{
-    color: rgb(253, 253, 253); 
-    font-weight: bold;  
-    font-size: 1,8rem;
-    position:absolute;
-    top:215px;
-    left:90px;
-    display: inline;
+.artistTitle h5 {
+  color: rgb(253, 253, 253);
+  font-weight: bold;
+  font-size: 1, 8rem;
+  position: absolute;
+  top: 215px;
+  left: 90px;
+  display: inline;
 }
 
 .artistTitle svg {
-    position:absolute;
-    top:208px;
-    left:45px;
-    display: inline;
+  position: absolute;
+  top: 208px;
+  left: 45px;
+  display: inline;
 }
- 
-  .play-btn {
-    width: 40px;
-    height: 40px;
-    background-color: rgb(37, 223, 83);
-    border: 2px solid rgb(29, 223, 71);
-    border-radius: 50%;
+
+.secpart{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 231px;
+    top:0px;
+   
+}
+.second-container {
+  top: 500px;
+  left: 35px;
+  display: flex;
+  justify-content: flex-start;
+  position: absolute;
+}
+.second-container .round-play {
+  border: 3px solid;
+  border-color: #1db954;
+  background-color: #1db954;
+  border-radius: 50%;
+  overflow: hidden;
+  overflow: -moz-hidden-unscrollable;
+  height: 70px;
+  width: 70px;
+  padding: -6px;
+  position: relative;
+}
+.second-container .buttonpp {
+  height: 20px;
+  border-color: transparent transparent transparent #fefffe;
+  transition: 100ms all ease;
+  will-change: border-width;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 16px 0 16px 30px;
+  background-color: #1db954;
+  position: absolute;
+  margin: 0;
+  top: 23%;
+  right: 4%;
+}
+
+.second-container .buttonpp:hover {
+  border-color: transparent transparent transparent #fefffe;
+  border-style: double;
+  border-width: 0px 0px 0px 30px;
+  height: 30px;
+  width: 20px;
+  position: absolute;
+  margin: 0;
+  top: 27%;
+  right: 5%;
+}
+
+.imp-but {
+  display: inline;
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  align-items: center;
+}
+.un-points button {
+  display: inline;
+}
+
+.un-points button:first-child{
+    border: 1px solid;
+    border-color: rgba(255, 255, 255, 0.342);
+    background-color: transparent;
+    width: 150px;
+    font-size: smaller;
+}
+
+.un-points button:last-child{
+    border-color:transparent;
+    background-color: transparent;
+    letter-spacing: 6px;
+    font-weight: bold;
+}
+.un-points button:first-child:hover{
+    border-color: rgb(255, 255, 255);
+}
+.un-points button:last-child:hover{
+    font-size: large;
+    font-weight: bolder;  
+}
+
+.sec-title h3 {
+    color:rgb(255, 255, 255);
+    font-weight: bolder;
+}
+.row{
+    position: absolute;
+    top: 590px;
+    left: 44px;
+    width: 100%;
+}
+
+.column-1 {
+    float:left;
+    width: 65%;
+}
+.column-2 {
+    float: right;
+    width: 25%;
+    margin-left: 60px;
+}
+
+
+.table tr {
+    color:white;
+ }
+
+
+ table img {
+     height: 60px;
+     width: 60px;
+ }
+
+ table th:first-of-type {
+     width: 30px;
+     vertical-align: middle;
+ }
+ table thead th{
+    vertical-align: middle !important;
+ }
+
+ tbody td {
+    vertical-align: middle !important;
+ }
+
+ .playlist-sec {
+     display: flex;
+     justify-items:self-start;
+  
+ }
+ .column-2 img {
+     width: 100px;
+     height: 100px;
+     display: inline;
+     padding: 5px;
+ }
+ .playlist-sec .tit h6 {
+     display: inline;
+     color:white;
+     margin-left: 10px;
+     margin-top: 3px;
+ }
+
+ .playlist-sec .tit p{
+    display: block;
+    color:rgba(255, 255, 255, 0.589);
+    margin-left: 10px;
+    margin-top: 3px;
+ }
+ .posted {
+     display: flex;
+     align-items: center;
+     margin-left: 6px;
+ }
+ .tit img {
+     border-radius: 50%;
+     width: 40px;
+     height: 40px;
+     display: inline;
+     margin-right: -5px;
+     margin-top: -11px;
+ }
+ .tit {
+     margin-top: 10px;
+ }
+
+/* sidebar */
+body{
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  line-height: 1.6;
+  vertical-align: baseline;
+  
+  }
+  .col {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
   }
   
-.play-btn:not(:hover) {
-    background: rgb(91, 246, 30);
-  }  
+  .card:hover {
+  transform: translateY(-3px) scale(1.05);
+  cursor: pointer;
+  transition: 0.5s;
+  }
+  .speaker {
+  position: relative;
+  }
+  .speaker::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 6px;
+  background-color: rgb(218, 209, 213);
+  top: 6px;
+  border-radius: 20px;
+  margin-left: 2px;
+  }
+  .card {
+  transition: all 0.5s;
+  opacity: 0.8;
+  }
+  .card:hover {
+  transform: translateY(-5px);
+  opacity: 1;
+  }
+  
+  .root-nav {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  position: relative;
+  }
+  
+  .sidebar {
+  margin: 0;
+  padding: 24px 0 0 0;
+  width: 232px;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  background-color: #000;
+  position: relative;
+  height: 100vh;
+  overflow: auto;
+  z-index: 3;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: normal;
+  left: -260px
+  }
+  
+  .sidebar a {
+  display: block;
+  color: #b3b3b3;
+  text-decoration: none;
+  }
+  
+  .sidebar a.active {
+  color: white;
+  background-color: #282828;
+  }
+  
+  .sidebar a:hover:not(.active) {
+  color: white;
+  }
+  
+  div.content {
+  margin-left: 232px;
+  padding: 1px 16px;
+  height: 1000px;
+  }
+  
+  @media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  
+  .sidebar a {
+    float: left;
+  }
+  div.content {
+    margin-left: 0;
+  }
+  }
+  
+  @media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+  }
+  
+  .logo {
+  color: #fff;
+  -webkit-box-flex: 1;
+  border: 0;
+  flex: 1;
+  margin-bottom: 18px;
+  padding: 0 24px;
+  position: relative;
+  }
+  
+  .logo .spotify-logo {
+  height: 40px;
+  max-width: 131px;
+  width: 100%;
+  }
+  
+  ul {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  list-style: none;
+  }
+  
+  li {
+  margin-left: -40px;
+  display: list-item;
+  text-align: -webkit-match-parent;
+  }
+  
+  .test {
+  padding: 0 8px 0 8px;
+  }
+  
+  .position {
+  -webkit-box-align: center;
+  align-items: center;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  padding: 6px 16px 0 16px;
+  color: #b3b3b3;
+  vertical-align: middle;
+  }
+  
+  .svg-icon {
+  margin-right: 16px;
+  }
+  
+  .svg-box {
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  align-items: center;
+  display: flex;
+  flex-shrink: 0;
+  height: 24px;
+  justify-content: center;
+  padding: 4px;
+  position: relative;
+  width: 24px;
+  }
+  
+  .svg-box-icon {
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  }
+  
+  .grad {
+  background: linear-gradient(135deg, #450af5, #c4efd9);
+  border-radius: 1px;
+  }
+  
+  hr {
+  display: block;
+  unicode-bidi: isolate;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  overflow: hidden;
+  border-style: inset;
+  margin-left: 24px;
+  margin-right: 24px;
+  background-color: #4d4c4c;
+  }
+  
+  .third-ul {
+  margin-left: 24px;
+  color: #b3b3b3;
+  }
+  
+  .li-position {
+  padding: 6px 0px 6px 0px;
+  }
+  .titlegm {
+  color: #f1ecec;
+  }
+  .card {
+  background-color: rgba(59, 56, 56, 0.349) !important;
+  color: #e0dbdb;
+  border-radius: 10%;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: horizontal;
+  }
+  .gm {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  }
+  .card-title {
+  white-space: nowrap;
+  width: 130px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: horizontal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  }
+  
+  .arrows button {
+  border-radius: 50%;
+  }
+  
+  .main-scroll {
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  }
+  
+  .main-scroll .navbar-toggler {
+  background-color: rgba(0, 0, 0, 0.7) !important;
+  border-radius: 40px;
+  width: 250px;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  position: relative;
+  }
+  
+  .navbar-toggler span {
+  position: absolute;
+  background-color: transparent;
+  top: 12px;
+  right: 10px;
+  }
+  .navbar-toggler p {
+  position: absolute;
+  top: 13px;
+  right: 52px;
+  }
+  
+  .navbar-toggler img {
+  vertical-align: middle;
+  border-style: none;
+  left: 1px;
+  position: absolute;
+  top: 0px;
+  height: 47px;
+  border-radius: 50%;
+  }
+  @media only screen and (min-width: 1000px) {
+  .shows-details {
+    margin-left: -18rem;
+  }
+  }

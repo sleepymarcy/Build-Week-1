@@ -1,49 +1,51 @@
+html {
+  height: 100%;
+}
+
 body {
-  margin: 0;
+  height: 100%;
+  overflow: hidden; /* makes the body non-scrollable (we will add scrolling to the sidebar and main content containers) */
+  margin: 0px; /* removes default style */
+  display: flex; /* enables flex content for its children */
+  box-sizing: border-box;
+  background-image: linear-gradient(#3f0807, #121212, #121212);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  min-height: 600px;
+  min-width: 768px;
   font-family: "Lato", sans-serif;
   line-height: 1.6;
   vertical-align: baseline;
-  background-color: rgba(27, 22, 22, 0.945) !important;
-}
-.col {
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
 }
 
-.card:hover {
-  transform: translateY(-3px) scale(1.05);
-  cursor: pointer;
-  transition: 0.5s;
-}
-.speaker {
-  position: relative;
-}
-.speaker::after {
-  content: "";
-  position: absolute;
-  width: 100px;
-  height: 6px;
-  background-color: rgb(218, 209, 213);
-  top: 6px;
-  border-radius: 20px;
-  margin-left: 2px;
-}
-.card {
-  transition: all 0.5s;
-  opacity: 0.8;
-}
-.card:hover {
-  transform: translateY(-5px);
-  opacity: 1;
-}
-
-.root-nav {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
+.column {
+  height: 100%; /* allows both columns to span the full height of the browser window */
   display: flex;
-  flex-direction: column;
-  min-height: 0;
-  position: relative;
+  flex-direction: column; /* places the left and right headers above the bottom content */
+}
+
+#left {
+  flex-shrink: 0; /* makes sure that content is not cut off in a smaller browser window */
+}
+
+#main {
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+
+.top-left {
+  flex-shink: 0;
+}
+
+.top-right {
+  flex-shrink: 0;
+  display: inline-flex;
+}
+
+.bottom {
+  flex-grow: 1; /* ensures that the container will take up the full height of the parent container */
+  overflow-y: auto; /* adds scroll to this container */
 }
 
 .sidebar {
@@ -61,6 +63,7 @@ body {
   font-size: 14px;
   font-weight: 700;
   letter-spacing: normal;
+  flex: 1;
 }
 
 .sidebar a {
@@ -78,33 +81,11 @@ body {
   color: white;
 }
 
-div.content {
-  margin-left: 232px;
-  padding: 1px 16px;
-  height: 1000px;
+ul {
+  display: inline-flex;
+  list-style: none;
 }
 
-@media screen and (max-width: 700px) {
-  .sidebar {
-    width: 100%;
-    height: auto;
-    position: relative;
-  }
-
-  .sidebar a {
-    float: left;
-  }
-  div.content {
-    margin-left: 0;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .sidebar a {
-    text-align: center;
-    float: none;
-  }
-}
 
 .logo {
   color: #fff;
@@ -209,25 +190,29 @@ hr {
 .li-position {
   padding: 6px 0px 6px 0px;
 }
+
 .titlegm {
   color: #f1ecec;
 }
-.card {
-  background-color: rgba(59, 56, 56, 0.349) !important;
-  color: #e0dbdb;
-  border-radius: 10%;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: horizontal;
-}
+
 .gm {
   margin-top: 30px;
   display: flex;
   justify-content: space-evenly;
 }
+
+.card {
+  background-color: rgba(59, 56, 56, 0.349) !important;
+  color: #e0dbdb;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: horizontal;
+}
+
+
 .card-title {
   white-space: nowrap;
-  width: 130px;
+  width: 200px;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: horizontal;
@@ -282,8 +267,24 @@ hr {
   height: 47px;
   border-radius: 50%;
 }
-@media only screen and (min-width: 1000px) {
-  .shows-details {
-    margin-left: -18rem;
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {
+    float: left;
+  }
+  div.content {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
   }
 }

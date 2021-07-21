@@ -207,7 +207,19 @@ section .color:nth-child(3) {
 	cursor: pointer;
 	margin-bottom: 20px;
 	font-weight: 600;
+	transition: all cubic-bezier(0.55, 0.055, 0.675, 0.19);
+	padding: 10px;
 }
+.button-hover {
+	transition: all 0.3s ease-in;
+	opacity: 0.8;
+}
+.button-hover:hover {
+	transform: scale(1.03);
+	background-color: rgba(90, 139, 179, 0.52) !important;
+	color: white !important;
+}
+
 .forget,
 .sign-up {
 	margin-top: 5px;

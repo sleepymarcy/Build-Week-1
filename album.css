@@ -670,7 +670,7 @@ body {
 }
 
 .nav {
-  display: block;
+  display: none;
 }
 .bi-play-fill {
   display: none;

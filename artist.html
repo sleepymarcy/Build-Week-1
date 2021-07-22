@@ -10,7 +10,8 @@
       integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="artist.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="artist.css"/>
     <title>Spotify Artist</title>
   </head>
   <body>
@@ -212,8 +213,9 @@
               </button>
             </div>
 
+        
             <button
-              class="navbar-toggler my-2 mx-3"
+               class="navbar-toggler my-2 mx-3"
               type="button"
               data-toggle="collapse"
               data-target="#navbarSupportedContent"
@@ -225,7 +227,8 @@
                 ><img src="./covers/utent.png" height="40"
               /></a>
               <p>Name Surname</p>
-              <span class="navbar-toggler-icon">
+
+              <span class="navbar-toggler-icon">  
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   x="0px"
@@ -260,8 +263,12 @@
                   </g>
                 </svg>
               </span>
-            </button>
+             
+              
+
+            
           </div>
+        </div>
 
           <div class="header">
             <div class="artistTitle">
@@ -411,8 +418,53 @@
           </div>
         </div>
       </div>
+
+      <section class="currently-playing" style="background-color: rgba(0, 0, 0, 0.418); color: white;">
+        <div class="container-fluid">
+          <div class="current-song d-flex justify-content-around ">
+            <div class="d-flex align-items-center">
+              <div class="card" style="width: 60px; height: 60px;background-color: rgba(0, 0, 0, 0.5);border-radius:10px">
+                <img style="width: 40px;border-radius:10px ;margin: auto; height: 40px "
+                  src="https://static.onecms.io/wp-content/uploads/sites/20/2016/01/beyonce-1024-5.jpg"
+                  class="card-img-top " alt="weekend-song" />
+              </div>
+              <h6 style="margin-left: 10px; margin-top: 10px;">Hymn for the weekend <span>
+                  <p style="font-size: 12px;">Coldplay</p>
+                </span></h6>
+  
+              <p></p>
+              <i class="fa fa-heart " style="margin-left: 10px; color:rgba(255, 255, 255, 0.363);"></i>
+              <i class="fa fa-square" style="margin-left: 10px; color:rgba(255, 255, 255, 0.363);"></i>
+            </div>
+  
+  
+            <div class="audio-player">
+              <div class="audio-icons" style="margin-top: 10px; margin-right: 20rem; ">
+                <i class="fa fa-random px-4"></i>
+                <i class="fa fa-step-backward px-4"></i>
+                <i class="fa fa-play-circle px-4" style="font-size: 1.6rem;"></i>
+                <i class="fa fa-step-forward px-4"></i>
+                <i class="bi bi-arrow-repeat"></i>
+              </div>
+  
+  
+              <progress max="5" value="2" style="width:60%;"> </progress>
+  
+            </div>
+            <div class="mt-4">
+              <i class="bi bi-list-stars px-2"></i>
+              <i class="bi bi-archive px-2"></i>
+              <i class="fa fa-volume-down px-2 speaker"></i>
+  
+            </div>
+  
+          </div>
+        </div>
+      </section>
+
     </div>
 
+    
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

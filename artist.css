@@ -25,10 +25,10 @@ body {
 }
 
 .navbar-toggler {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.753);
   border-radius: 40px;
-  width: 250px;
-  height: 50px;
+  width: 245px;
+  height: 34px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -72,9 +72,9 @@ nav {
 .nav-artist {
   background-image: url(/covers/qmaincover.jpeg);
   background-size: cover;
-  width: 100%;
+  width: 88%;
   left: -26px;
-  height: 51vh;
+  height: 45vh;
   contain: strict;
   content-visibility: auto;
   background-repeat: no-repeat;
@@ -82,7 +82,7 @@ nav {
   background-attachment: scroll;
   min-height: 310px;
   position: relative;
-  z-index: 2;
+  z-index: 0;
 }
 
 .artistTitle h1 {
@@ -92,18 +92,17 @@ nav {
   transform: (-50%, -50%);
   color: rgb(255, 255, 255);
   font-weight: bold;
-  font-size: 10rem;
+  font-size: 8rem;
   letter-spacing: -5px;
 }
 
 
 .artistTitle h6 {
   position: absolute;
-  top: 420px;
+  top: 388px;
   left: 45px;
   color: rgb(255, 255, 255);
-  font-weight: bold;
-  font-size: 1, 8rem;
+  font-weight: lighter;
   display: inline;
 }
 
@@ -132,11 +131,9 @@ nav {
     top:0px;
 }
 
-
-
 .second-container {
-  top: 500px;
-  left: 35px;
+  top: 446px;
+  left: 33px;
   display: flex;
   justify-content: flex-start;
   position: absolute;
@@ -220,7 +217,7 @@ nav {
 }
 .row{
     position: absolute;
-    top: 590px;
+    top: 538px;
     left: 44px;
     width: 86%;
 }
@@ -228,18 +225,18 @@ nav {
 .column-1 {
     float:left;
     width: 65%;
+    height: fit-content;
 }
 .column-2 {
     float: right;
     width: 25%;
-    margin-left: 60px;
+    margin-left: 85px;
+    height: fit-content;
 }
-
 
 .table tr {
     color:white;
  }
-
 
  table img {
      height: 60px;
@@ -548,13 +545,14 @@ body{
   display: flex;
   justify-content: space-between;
   top: 0;
+  position: sticky;
   }
   
   .main-scroll .navbar-toggler {
-  background-color: rgba(0, 0, 0, 0.7) !important;
+  background-color: rgba(24, 23, 23, 0.876) !important;
   border-radius: 40px;
-  width: 250px;
-  height: 50px;
+  width: 238px;
+  height: 41px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -563,31 +561,55 @@ body{
   text-overflow: ellipsis;
   white-space: nowrap;
   position: relative;
+  overflow: hidden;
   }
-  
+
+ 
+
   .navbar-toggler span {
   position: absolute;
   background-color: transparent;
-  top: 12px;
+  top: 7px;
   right: 10px;
   }
   .navbar-toggler p {
   position: absolute;
-  top: 13px;
-  right: 52px;
+  top: 12px;
+  right: 62px;
+  font-size:smaller;
+  letter-spacing: 1px;
   }
   
   .navbar-toggler img {
   vertical-align: middle;
   border-style: none;
-  left: 1px;
+  left: 0px;
   position: absolute;
   top: 0px;
-  height: 47px;
+  height: 39px;
   border-radius: 50%;
   }
   @media only screen and (min-width: 1000px) {
   .shows-details {
     margin-left: -18rem;
   }
+  }
+
+  .speaker {
+    position: relative;
+  }
+  .speaker::after {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 6px;
+    background-color: rgb(218, 209, 213);
+    top: 6px;
+    border-radius: 20px;
+    margin-left: 2px;
+  }
+  .current-playing {
+    width: 100vh;
+    left:0px;
+    bottom:0px;
   }

@@ -460,48 +460,43 @@
 
 
   
-    <section class="currently-playing" style="background-color: rgba(0, 0, 0, 0.418); color: white;">
-      <div class="container-fluid">
-        <div class="current-song d-flex justify-content-around ">
-          <div class="d-flex align-items-center">
-            <div class="card" style="width: 60px; height: 60px;background-color: rgba(0, 0, 0, 0.5);border-radius:10px">
-              <img style="width: 40px;border-radius:10px ;margin: auto; height: 40px "
-                src="https://static.onecms.io/wp-content/uploads/sites/20/2016/01/beyonce-1024-5.jpg"
-                class="card-img-top " alt="weekend-song" />
-            </div>
-            <h6 style="margin-left: 10px; margin-top: 10px;">Hymn for the weekend <span>
-                <p style="font-size: 12px;">Coldplay</p>
-              </span></h6>
-
-            <p></p>
-            <i class="fa fa-heart " style="margin-left: 10px; color:rgba(255, 255, 255, 0.363);"></i>
-            <i class="fa fa-square" style="margin-left: 10px; color:rgba(255, 255, 255, 0.363);"></i>
-          </div>
-
-
-          <div class="audio-player">
-            <div class="audio-icons" style="margin-top: 10px; margin-right: 20rem; ">
-              <i class="fa fa-random px-4"></i>
-              <i class="fa fa-step-backward px-4"></i>
-              <i class="fa fa-play-circle px-4" style="font-size: 1.6rem;"></i>
-              <i class="fa fa-step-forward px-4"></i>
-              <i class="bi bi-arrow-repeat"></i>
-            </div>
-
-
-            <progress max="5" value="2" style="width:60%;"> </progress>
-
-          </div>
-          <div class="mt-4">
-            <i class="bi bi-list-stars px-2"></i>
-            <i class="bi bi-archive px-2"></i>
-            <i class="fa fa-volume-down px-2 speaker"></i>
-
-          </div>
-
-        </div>
-      </div>
-    </section>
+  <section class="currently-playing" style="background-color: rgba(0, 0, 0, 0.418); color: white;">
+			<div class="container-fluid">
+				<div class="current-song d-flex justify-content-around ">
+					<div class="image-song-h6 d-flex align-items-center justify-content-start ">
+					<div class="card my-card" style="width: 60px; height: 60px;background-color: rgba(0, 0, 0, 0.5);border-radius:10px;" >
+							<img style="width: 40px;border-radius:10px ;margin: auto; height: 40px "
+								src="https://static.onecms.io/wp-content/uploads/sites/20/2016/01/beyonce-1024-5.jpg"
+								class="card-img-top  playing-song-now"
+								alt="weekend-song"
+                              
+							/>
+					</div>
+					<h6 style="margin-left: 10px; margin-top: 20px;">Hymn for the weekend <span>	<p style="font-size: 12px;">Coldplay</p></span></h6>
+						</div>	
+            <div class="d-flex justify-content-center  align-items-center heart-sqaure">
+              		
+					<i class="fa fa-heart " style="margin-left: 10px; color:rgba(255, 255, 255, 0.363);"></i>
+					<i class="fa fa-square"style="margin-left: 10px; color:rgba(255, 255, 255, 0.363);"></i>
+            </div>	
+			  <div class="audio-player d-flex flex-column">
+				<div class="audio-icons" style="margin-top: 10px; margin-right: 20rem; ">
+					<i class="fa fa-random  px-1 px-md-2  px-xl-4 hoverMerandom"></i>
+					<i class="fa fa-step-backward  px-1 px-md-2  px-xl-4 hoverMeleft"></i>
+					<i class="fa fa-play-circle  px-1 px-md-2  px-xl-4 hoverMecircle" style="font-size: 1.6rem;"></i>
+					<i class="fa fa-step-forward  px-1 px-md-2  px-xl-4 hoverMeleft"></i>
+					<i class="bi bi-arrow-repeat" ></i>
+				</div>
+			<progress max="5" value="2" style="width:60%;"> </progress>
+				</div>
+				<div class="mt-4 volume d-flex">
+					<i class="bi bi-list-stars px-2 "></i>
+					<i class="bi bi-archive px-2 "></i>
+					<i class="fa fa-volume-down px-2 speaker"></i> 
+				</div>
+				</div>
+			</div>
+		</section>
 
   </div>
 

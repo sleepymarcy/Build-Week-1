@@ -192,7 +192,6 @@ hr {
 .titlegm {
   color: #f1ecec;
   padding-top: 30px;
-  padding-
 }
 
 .gm {
@@ -201,7 +200,7 @@ hr {
   justify-content: space-evenly;
 }
 
-.card {
+.card-gm {
   background-color: rgba(59, 56, 56, 0.349) !important;
   color: #e0dbdb;
   display: -webkit-box;
@@ -210,7 +209,7 @@ hr {
 }
 
 
-.card-title {
+.card-title-gm {
   white-space: nowrap;
   width: 180px;
   display: -webkit-box;
@@ -218,13 +217,59 @@ hr {
   -webkit-box-orient: horizontal;
   overflow: hidden;
   text-overflow: ellipsis;
+  margin-bottom: 5px;
 }
 
-.card-body {
+.card-body-gm {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   min-height: 1px;
-  padding: 1.25rem 1.25rem 1.25rem 0;
+  padding: 1rem 1rem 1rem 1rem;
+  display: inline-block;
+}
+
+.card {
+  background-color: rgba(26, 24, 24, 0.349) !important;
+  color:rgb(255, 255, 255);
+}
+
+.card-body {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 0.50rem;
+  margin-top: 5px;
+}
+
+.card img {
+  padding: 0.50rem;
+}
+
+.card p {
+  font-size: small;
+  color:rgba(255, 255, 255, 0.582)
+}
+
+@media (min-width: 576px) {
+  .card-deck .card {
+    flex: 1 0 0%;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+  }
+}
+
+.section-header {
+  color: #f1ecec;
+}
+
+.see {
+  float:right;
+  color:#fff;
+  text-decoration:none;
+  margin-top:-30px;
+  font-size:11px;
+  opacity:0.6;
+  margin-right:12px
 }
 
 .arrows button {

@@ -327,10 +327,23 @@ hr {
   margin-left: 2px;
 }
 
+/* Scrollbar*/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
 
-.Root__now-playing-bar {
-  background-color: #181818;
-  grid-area: now-playing-bar;
-  width: 100%;
-  z-index: 4;
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(112, 111, 111); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
 }

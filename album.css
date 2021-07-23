@@ -733,3 +733,58 @@ body {
 	transform: scale(1.08);
 	color: #450af5;
 }
+@media screen and (max-width: 1297px) {
+	.current-song {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.image-song-h6 {
+		display: flex;
+		margin: 10 200px;
+	}
+	.audio-player {
+		margin: 0 auto;
+	}
+	.speaker {
+		margin: 0 200px;
+	}
+}
+@media screen and (max-width: 900px) {
+	.heart-sqaure {
+		display: none;
+	}
+}
+@media screen and (max-width: 970px) {
+	.current-song {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.audio-player {
+		padding: 0;
+		margin: 0;
+	}
+	.image-song-h6 {
+		display: flex;
+		margin: 0 100px;
+	}
+	.audio-player {
+		margin: 0 auto;
+	}
+	.speaker {
+		margin: 0 100px;
+	}
+}
+@media screen and (max-width: 770px) {
+	.image-song-h6 {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+	}
+	.audio-player {
+		margin-left: 50px;
+	}
+}

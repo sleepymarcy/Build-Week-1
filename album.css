@@ -733,10 +733,6 @@ body {
 	transform: scale(1.08);
 	color: #450af5;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 09ca6e68f9f67e459ad536c8346ddc8400263f35
 @media screen and (max-width: 1297px) {
 	.current-song {
 		display: flex;
@@ -746,11 +742,7 @@ body {
 
 	.image-song-h6 {
 		display: flex;
-<<<<<<< HEAD
 		margin: 10 200px;
-=======
-		margin: 0 200px;
->>>>>>> 09ca6e68f9f67e459ad536c8346ddc8400263f35
 	}
 	.audio-player {
 		margin: 0 auto;

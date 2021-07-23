@@ -295,7 +295,8 @@ hr {
 .navbar-toggler p {
 	position: absolute;
 	top: 13px;
-	right: 52px;
+	padding: 0 55px 0 55px;
+	
 }
 
 .navbar-toggler img {

@@ -627,6 +627,7 @@ body {
 .list-group {
 	margin-top: 0px;
 	width: 100%;
+	transition: all 0.5s ease-out;
 }
 .list-group-item:hover {
 	background: rgb(51, 50, 50);
@@ -634,6 +635,7 @@ body {
 	margin: auto;
 	height: 100%;
 	justify-content: center;
+	color: green;
 }
 #line:hover {
 	background: rgb(51, 50, 50);
@@ -675,7 +677,7 @@ body {
 .bi-play-fill {
 	display: none;
 }
-#line:hover > .bi-play-fill {
+/* #line:hover > .bi-play-fill {
 	display: inline-block;
 	margin-left: 43px;
 }
@@ -689,14 +691,14 @@ body {
 .list-group-item:hover {
 	line-height: 40px;
 	height: 65px;
-}
-.list-group-item:hover > .bi-play-fill {
+} */
+/* .list-group-item:hover > .bi-play-fill {
 	display: inline-block;
 	margin-left: 43px;
 }
 .list-group-item:hover .uno {
 	display: none;
-}
+} */
 
 .currently-playing {
 	position: static;

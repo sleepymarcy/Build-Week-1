@@ -10,13 +10,14 @@
       integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="artist.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="artist.css"/>
     <title>Spotify Artist</title>
   </head>
   <body>
 
     <!--sidebar-->
-    <div>    
+     
       <nav class="root-nav">
         <div class="sidebar">
           <div class="logo">
@@ -115,7 +116,7 @@
         </div>
       </nav>
  <!--sidebar end-->      
-
+<div class="secpart">
     <div class="container" style="display: flex;">
       <nav>
         <div class="nav-artist">
@@ -212,8 +213,9 @@
               </button>
             </div>
 
+        
             <button
-              class="navbar-toggler my-2 mx-3"
+               class="navbar-toggler my-2 mx-3"
               type="button"
               data-toggle="collapse"
               data-target="#navbarSupportedContent"
@@ -225,7 +227,8 @@
                 ><img src="./covers/utent.png" height="40"
               /></a>
               <p>Name Surname</p>
-              <span class="navbar-toggler-icon">
+              
+              <span class="navbar-toggler-icon">  
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   x="0px"
@@ -260,8 +263,9 @@
                   </g>
                 </svg>
               </span>
-            </button>
+             </button>
           </div>
+        </div>
 
           <div class="header">
             <div class="artistTitle">
@@ -311,7 +315,7 @@
         </div>
       </nav>
 
-      <div class="secpart">
+     
 
 
         <div class="second-container">
@@ -334,7 +338,7 @@
               <h3>Popular</h3>
             </div>
             
-            <table class="table table-borderless">
+            <table class="table table-borderless w-80">
               <thead>
                 <tr>
                   <th scope="col">
@@ -409,10 +413,59 @@
            
            
           </div>
+        
+        <div class="column-3" style="width: 100%; height: fit-content;">      
+        <section class="currently-playing fixed-bottom w-80" style="background-color: rgba(0, 0, 0, 0.986); color: white; bottom:0px;">
+          <div class="container-fluid">
+            <div class="current-song d-flex justify-content-around ">
+              <div class="d-flex align-items-center">
+                <div class="card" style="width: 45px; height: 41spx;background-color: rgba(0, 0, 0, 0.5);border-radius:2px;  display:contents">
+                  <img style="width: 40px; margin: auto; height: 40px "
+                    src="./covers/t1.jpeg"
+                    class="card-img-top " alt="weekend-song" />
+                </div>
+                <h6 style="margin-left: 10px; margin-top: 10px; font-size: smaller; color: rgba(255, 255, 255, 0.815);">Another One Bites The Dust - Remastered 2011<span>
+                    <p style="font-size: 11px; letter-spacing: 1px; color: rgba(255, 255, 255, 0.685);">Queen</p>
+                  </span></h6>
+    
+                <p></p>
+                <i class="fa fa-heart " style="margin-left: 56px; color:rgba(255, 255, 255, 0.363);"></i>
+                <i class="fa fa-square" style="margin-left: 10px; color:rgba(255, 255, 255, 0.363);"></i>
+              </div>
+    
+    
+              <div class="audio-player">
+                <div class="audio-icons" style="margin-top: 10px; width: 715px; ">
+                  <i class="fa fa-random px-4" style="margin-right: 20px; margin-left: 146px;"></i>
+                  <i class="fa fa-step-backward px-4" style="margin-right: 20px;"></i>
+                  <i class="fa fa-play-circle px-4" style="margin-right: 20px;"></i>
+                  <i class="fa fa-step-forward px-4" style="margin-right: 20px;"></i>
+                  <i class="bi bi-arrow-repeat" style="margin-right: 20px;"></i>
+                </div>
+    
+    
+                <progress max="5" value="2" style="width:91%;"> </progress>
+    
+              </div>
+              <div class="mt-4">
+                <i class="bi bi-list-stars px-2"></i>
+                <i class="bi bi-archive px-2"></i>
+                <i class="fa fa-volume-down px-2 speaker"></i>
+    
+              </div>
+    
+            </div>
+          </div>
+        
+        </section>
         </div>
       </div>
-    </div>
 
+     </div>
+</div>
+    
+
+    
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

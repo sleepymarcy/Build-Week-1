@@ -5,10 +5,17 @@ body {
   background: linear-gradient(
 0deg
 , rgba(1,1,5,1) 24%, rgb(0 0 0 / 85%) 45%); 
+
 }
 
 .arrows button {
   border-radius: 50%;
+}
+
+.arrows button:hover {
+  border-color:white !important;
+  border:1px solid !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .main-scroll {
@@ -19,10 +26,10 @@ body {
 }
 
 .navbar-toggler {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.753);
   border-radius: 40px;
-  width: 250px;
-  height: 50px;
+  width: 245px;
+  height: 34px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -61,14 +68,15 @@ nav {
   left: 260px;
   position: absolute;
   top: 0;
-  width: 100%;
+  width: 82%;
 }
 .nav-artist {
   background-image: url(/covers/qmaincover.jpeg);
   background-size: cover;
-  width: 100%;
-  left: -26px;
-  height: 40vh;
+  width: 132%;
+  left: -28px;
+  right: 0px;
+  height: 45vh;
   contain: strict;
   content-visibility: auto;
   background-repeat: no-repeat;
@@ -76,7 +84,8 @@ nav {
   background-attachment: scroll;
   min-height: 310px;
   position: relative;
-  z-index: 2;
+  z-index: 0;
+ 
 }
 
 .artistTitle h1 {
@@ -86,17 +95,17 @@ nav {
   transform: (-50%, -50%);
   color: rgb(255, 255, 255);
   font-weight: bold;
-  font-size: 10rem;
+  font-size: 8rem;
   letter-spacing: -5px;
 }
 
+
 .artistTitle h6 {
   position: absolute;
-  top: 420px;
+  top: 388px;
   left: 45px;
   color: rgb(255, 255, 255);
-  font-weight: bold;
-  font-size: 1, 8rem;
+  font-weight: lighter;
   display: inline;
 }
 
@@ -119,15 +128,15 @@ nav {
 
 .secpart{
     position: absolute;
-    height: 100%;
-    width: 100%;
-    left: 231px;
+    height: 100vh;
+    width: 80vw;
+    left: 0px;
     top:0px;
-   
 }
+
 .second-container {
-  top: 500px;
-  left: 35px;
+  top: 446px;
+  left: 266px;
   display: flex;
   justify-content: flex-start;
   position: absolute;
@@ -198,6 +207,7 @@ nav {
 }
 .un-points button:first-child:hover{
     border-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(224, 217, 217, 0.287), 0 6px 20px 0 rgba(212, 205, 205, 0.322);
 }
 .un-points button:last-child:hover{
     font-size: large;
@@ -210,30 +220,30 @@ nav {
 }
 .row{
     position: absolute;
-    top: 590px;
-    left: 44px;
-    width: 100%;
+    top: 538px;
+    left: 272px;
+    width: 92%;
 }
 
 .column-1 {
     float:left;
     width: 65%;
+    height: fit-content;
 }
 .column-2 {
     float: right;
     width: 25%;
-    margin-left: 60px;
+    margin-left: 97px;
+    height: fit-content;
 }
-
 
 .table tr {
     color:white;
  }
 
-
  table img {
-     height: 60px;
-     width: 60px;
+     height: 50px;
+     width: 50px;
  }
 
  table th:first-of-type {
@@ -335,6 +345,7 @@ body{
   display: flex;
   flex-direction: column;
   min-height: 0;
+  height: 114vh;
   position: relative;
   }
   
@@ -347,8 +358,8 @@ body{
   min-height: 0;
   background-color: #000;
   position: relative;
-  height: 100vh;
-  overflow: auto;
+  height: 100%;
+  overflow: hidden;
   z-index: 3;
   font-size: 14px;
   font-weight: 700;
@@ -403,7 +414,7 @@ body{
   color: #fff;
   -webkit-box-flex: 1;
   border: 0;
-  flex: 1;
+  flex: 0;
   margin-bottom: 18px;
   padding: 0 24px;
   position: relative;
@@ -537,13 +548,14 @@ body{
   display: flex;
   justify-content: space-between;
   top: 0;
+  position: sticky;
   }
   
   .main-scroll .navbar-toggler {
-  background-color: rgba(0, 0, 0, 0.7) !important;
+  background-color: rgba(24, 23, 23, 0.876) !important;
   border-radius: 40px;
-  width: 250px;
-  height: 50px;
+  width: 238px;
+  height: 41px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -552,27 +564,37 @@ body{
   text-overflow: ellipsis;
   white-space: nowrap;
   position: relative;
+  overflow: hidden;
   }
-  
+
+ 
+
   .navbar-toggler span {
   position: absolute;
   background-color: transparent;
-  top: 12px;
+  top: 7px;
   right: 10px;
   }
+
+  .navbar-toggler span:hover {
+    transform: rotate(180deg);
+  }
+
   .navbar-toggler p {
   position: absolute;
-  top: 13px;
-  right: 52px;
+  top: 12px;
+  right: 62px;
+  font-size:smaller;
+  letter-spacing: 1px;
   }
   
   .navbar-toggler img {
   vertical-align: middle;
   border-style: none;
-  left: 1px;
+  left: 0px;
   position: absolute;
   top: 0px;
-  height: 47px;
+  height: 39px;
   border-radius: 50%;
   }
   @media only screen and (min-width: 1000px) {

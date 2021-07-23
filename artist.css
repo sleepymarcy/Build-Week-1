@@ -5,6 +5,7 @@ body {
   background: linear-gradient(
 0deg
 , rgba(1,1,5,1) 24%, rgb(0 0 0 / 85%) 45%); 
+
 }
 
 .arrows button {
@@ -67,13 +68,14 @@ nav {
   left: 260px;
   position: absolute;
   top: 0;
-  width: 100%;
+  width: 82%;
 }
 .nav-artist {
   background-image: url(/covers/qmaincover.jpeg);
   background-size: cover;
-  width: 88%;
-  left: -26px;
+  width: 132%;
+  left: -28px;
+  right: 0px;
   height: 45vh;
   contain: strict;
   content-visibility: auto;
@@ -83,6 +85,7 @@ nav {
   min-height: 310px;
   position: relative;
   z-index: 0;
+ 
 }
 
 .artistTitle h1 {
@@ -126,14 +129,14 @@ nav {
 .secpart{
     position: absolute;
     height: 100vh;
-    width: 100%;
-    left: 231px;
+    width: 80vw;
+    left: 0px;
     top:0px;
 }
 
 .second-container {
   top: 446px;
-  left: 33px;
+  left: 266px;
   display: flex;
   justify-content: flex-start;
   position: absolute;
@@ -218,8 +221,8 @@ nav {
 .row{
     position: absolute;
     top: 538px;
-    left: 44px;
-    width: 86%;
+    left: 272px;
+    width: 92%;
 }
 
 .column-1 {
@@ -230,7 +233,7 @@ nav {
 .column-2 {
     float: right;
     width: 25%;
-    margin-left: 85px;
+    margin-left: 97px;
     height: fit-content;
 }
 
@@ -239,8 +242,8 @@ nav {
  }
 
  table img {
-     height: 60px;
-     width: 60px;
+     height: 50px;
+     width: 50px;
  }
 
  table th:first-of-type {
@@ -572,6 +575,11 @@ body{
   top: 7px;
   right: 10px;
   }
+
+  .navbar-toggler span:hover {
+    transform: rotate(180deg);
+  }
+
   .navbar-toggler p {
   position: absolute;
   top: 12px;

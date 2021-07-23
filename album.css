@@ -788,3 +788,25 @@ body {
 		margin-left: 50px;
 	}
 }
+
+
+/* Scrollbar*/
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: rgb(112, 111, 111);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}

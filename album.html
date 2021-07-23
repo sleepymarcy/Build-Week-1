@@ -11,9 +11,9 @@
 <link href="album.css" rel="stylesheet">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"  crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <title>Spotify </title>
+    <title>Hello, world!</title>
   </head>
-  <body style="overflow-x: hidden;">
+  <body style="overflow-x: hidden;width: 100%;">
 
     <nav class="root-nav">
       <div class="sidebar">
@@ -77,8 +77,8 @@
         </ul>
         <hr>
         <div >
-          <ul class="third-ul" style="background-attachment: scroll;overflow:hidden">
-            <li class="li-position">Funky Heavy Bluesy</li>
+          <ul class="third-ul">
+            <li class="li-position"  >Funky Heavy Bluesy</li>
             <li class="li-position">Your Top Songs 2020</li>
             <li class="li-position">In Love With You - Erykah B...</li>
             <li class="li-position">This is Rod Stewart</li>
@@ -117,29 +117,31 @@
           <div class="slider__btn slider__btn__left" >&#62</div>
           <button type="button" class="btn btn-outline-light">PREMIUM</button>
          
-          <button type="button" class="btn btn-outline-none" id="bot" ><i class="bi bi-person-circle" style="margin-left:-10px "></i> Alejandra Del...<i class="bi bi-caret-down-fill" id="caret" ></i></button>
+          <button type="button" class="btn btn-outline-none" id="bot" ><i class="bi bi-person-circle" style="margin-left:-10px "></i> Alejandra Del...<i class="bi bi-caret-down-fill" id="caret" >
               
                 <nav class="nav">
           <ul>
-           <li><a href="#">Account<i class="bi bi-arrow-up-right-square" style="font-size:17px ;margin-left:100px"></i></a></li>
+           <li><a href="#">Account<i class="bi bi-arrow-up-right-square" style="font-size:17px ;margin-left:82px"></i></a></li>
             <li><a href="#">Profile</a></li>
-            <li><a href="#">Change to Premium<i class="bi bi-arrow-up-right-square" style="font-size:17px; margin-left:28px"></i></a></li>
+            <li><a href="#">Change to Premium<i class="bi bi-arrow-up-right-square" style="font-size:17px; margin-left:10px"></i></a></li>
            <li> <a href="#">Close</a></li>
 
   
         </ul>
-        <script src="album.js"></script>
           </nav>
+        </i>
+        <script src="album.js"></script>
+      </button>
       </div>
-      <div class="card mb-3" style="max-width: 1040px;margin-top:50px;height:0px;background-color:fuchsia;">
+      <div class="card mb-3" style="width:100%;margin-top:50px;height:0px;background-color:fuchsia;">
         <div class="row g-0">
           <div class="col-md-4">
-            <img src="https://i.scdn.co/image/ab67616d0000b273e8b066f70c206551210d902b" class="img-fluid rounded-start" style="width:200px; height:200px;margin-top:30px" alt="...">
+            <img src="queen.jpeg" class="img-fluid rounded-start" style="width:200px; height:200px;margin-top:30px" alt="...">
           </div>
           <div class="col-md-8" style="margin-top:58px;margin-left:-80px">
-            <div class="card-body" >
-              <h6 class="card-title" style="color:#fff">ALBUM</h6>
-              <h1 class="card-text" style="font-size:42px;color:#fff">Bohemian Rhapsody(The Original Soundtrack)</h1>
+            <div class="card-body" style="width:110%">
+              <h6 class="card-title" style="color:#fff;margin-left:-48px;font-size:12px;opacity:1">ÁLBUM</h6>
+              <h1 class="card-text" id="text" style="font-size: 42px;color:white">Bohemian Rhapsody(The Original Soundtrack)</h1>
               <p class="card-text" id="span" style="color:#fff;"><small class="text-muted" ><strong style="color:#fff">Queen</strong> .2018 .22 canciones, 1h 19 min</small></p>
             </div>
           </div>
@@ -148,71 +150,67 @@
       <div class="card"  style="width: 84%; margin-top:235px; 
       " >
         <ul class="list-group list-group-flush" >
-            <li class="list-group-item border-bottom-0 colspan=23" id="all"><i class="bi bi-play-circle-fill" id="play"></i> <i id ="heart" class="bi bi-heart"></i><i class="bi bi-three-dots" style="margin-left:25px; font-size:27px;"></i>
-         <br>
-                <p class="card-text"><small class="text-muted" id ="titulo" ># Titulo</small></p>
-                <hr>
-            </li>
-          <li id="line" class="list-group-item" style="margin-left:0px"> <p class="uno"> 1</p> <i class="bi bi-play-fill" style="font-size:20px"></i> 20th Century Fox Fanfare 
+            <li class="list-group-item border-bottom-0 colspan=23" id="all"><i class="bi bi-play-circle-fill" id="play"></i> <i class="bi bi-heart" id="heart"></i><i class="bi bi-three-dots" style="margin-left:25px; font-size:27px;"></i><i class="bi bi-clock" style="margin-top:110px;float:right;margin-right:70px;opacity:0.8"></i>
+         
+                <p class="card-text"><small  id ="titulo" ># TÍTULO</small></p> <hr></li>
+                
+                
+           
+          <li id="line" class="list-group-item" style="margin-left:0px"> <p class="uno"> 1</p> <i class="bi bi-play-fill" style="font-size:20px"></i> 20th Century Fox Fanfare <p class="duo" style="float:right;margin-right:71px;opacity:0.7;"><small><i class="bi bi-heart " style="margin-right:16px;display:none"></i>0:25<i class="bi bi-three-dots" style="padding:20px;display:none"></i></small></p>
           <p class="card-text" style="margin-top:-20px"><small class="text-muted">Queen</small></p>
         </li>
-          <li class="list-group-item" style="margin-left:0px"><p class="uno" onmouseover="setNewIcon()" onmouseout="setOldIcon()">2 </p> <i class="bi bi-play-fill" style="font-size:20px"></i>Somebody To Love
+          <li class="list-group-item" style="margin-left:0px"><p class="uno"  onmouseover="setNewIcon()" onmouseout="setOldIcon()">2 </p> <i class="bi bi-play-fill" style="font-size:20px"></i>Somebody To Love<p class="duo" style="float:right;margin-right:71px;opacity:0.7;"><small><i class="bi bi-heart " style="margin-right:16px;display:none"></i>4:55<i class="bi bi-three-dots" style="padding:20px;display:none"></i></small></p>
           <p class="card-text" style="margin-top:-20px"><small class="text-muted">Queen</small></p></li>
 
-          <li class="list-group-item" style="margin-left:0px"><p class="uno">3 </p> <i class="bi bi-play-fill" style="font-size:20px"></i>Doing All Right- ...Revisited
+          <li class="list-group-item" style="margin-left:0px"><p class="uno">3 </p> <i class="bi bi-play-fill" style="font-size:20px"></i>Doing All Right- ...Revisited<p class="duo" style="float:right;margin-right:71px;opacity:0.7;"><small><i class="bi bi-heart " style="margin-right:16px;display:none"></i>3:16<i class="bi bi-three-dots" style="padding:20px;display:none"></i></small></p>
             <p class="card-text" style="margin-top:-20px"><small class="text-muted">Smile</small></p></li>
         
-            <li class="list-group-item" style="margin-left:0px"><p class="uno">4 </p><i class="bi bi-play-fill" style="font-size:20px"></i> Keep Yourself Alive - Live At The Rainbow
+            <li class="list-group-item" style="margin-left:0px"><p class="uno">4 </p><i class="bi bi-play-fill" style="font-size:20px"></i> Keep Yourself Alive - Live At The Rainbow<p class="duo" style="float:right;margin-right:71px;opacity:0.7;"><small><i class="bi bi-heart " style="margin-right:16px;display:none"></i>3:56<i class="bi bi-three-dots" style="padding:20px;display:none"></i></small></p>
                 <p class="card-text" style="margin-top:-20px"><small class="text-muted" >Queen</small></p></li>
                 
-                <li class="list-group-item" style="margin-left:0px"><p class="uno">5 </p> <i class="bi bi-play-fill" style="font-size:20px"></i>Killer Queen
+                <li class="list-group-item" style="margin-left:0px"><p class="uno">5 </p> <i class="bi bi-play-fill" style="font-size:20px"></i>Killer Queen<p class="duo" style="float:right;margin-right:71px;opacity:0.7;"><small><i class="bi bi-heart " style="margin-right:16px;display:none"></i>2:59<i class="bi bi-three-dots" style="padding:20px;display:none"></i></small></p>
                     <p class="card-text" style="margin-top:-20px"><small class="text-muted">Queen</small></p></li>
                    
-                    <li class="list-group-item" style="margin-left:0px"><p class="uno">6 </p> <i class="bi bi-play-fill" style="font-size:20px"></i>Fat Bottomed Girls - Live in Paris
+                    <li class="list-group-item" style="margin-left:0px"><p class="uno">6 </p> <i class="bi bi-play-fill" style="font-size:20px"></i>Fat Bottomed Girls - Live in Paris<p class="duo" style="float:right;margin-right:71px;opacity:0.7;"><i class="bi bi-heart " style="margin-right:16px;display:none"></i><small>4:37<i class="bi bi-three-dots" style="padding:20px;display:none"></i></small></p>
                         <p class="card-text" style="margin-top:-20px"><small class="text-muted">Queen</small></p></li>
-                        <li class="list-group-item" style="margin-left:0px"><p class="uno">7 </p> <i class="bi bi-play-fill" style="font-size:20px"></i>Bohemian Rhapsody
+                        <li class="list-group-item" style="margin-left:0px"><p class="uno">7 </p> <i class="bi bi-play-fill" style="font-size:20px"></i>Bohemian Rhapsody<p class="duo" style="float:right;margin-right:71px;opacity:0.7;"><small><i class="bi bi-heart " style="margin-right:16px;display:none"></i>5:54<i class="bi bi-three-dots" style="padding:20px;display:none"></i></small></p>
                             <p class="card-text"><small class="text-muted">Queen</small></p></li>
         </ul>
       </div>
      
-     
-  <section class="currently-playing" style="background-color: rgba(0, 0, 0, 0.418); color: white;">
-			<div class="container-fluid">
-				<div class="current-song d-flex justify-content-around ">
-					<div class="image-song-h6 d-flex align-items-center justify-content-start ">
-					<div class="card my-card" style="width: 60px; height: 60px;background-color: rgba(0, 0, 0, 0.5);border-radius:10px;" >
-							<img style="width: 40px;border-radius:10px ;margin: auto; height: 40px "
-								src="https://static.onecms.io/wp-content/uploads/sites/20/2016/01/beyonce-1024-5.jpg"
-								class="card-img-top  playing-song-now"
-								alt="weekend-song"
-                              
-							/>
-					</div>
-					<h6 style="margin-left: 10px; margin-top: 20px;">Hymn for the weekend <span>	<p style="font-size: 12px;">Coldplay</p></span></h6>
-						</div>	
-            <div class="d-flex justify-content-center  align-items-center heart-sqaure mx-3">
-              		
-					<i class="fa fa-heart " style="margin-left: 10px; color:rgba(255, 255, 255, 0.363);"></i>
-					<i class="fa fa-square"style="margin-left: 10px; color:rgba(255, 255, 255, 0.363);"></i>
-            </div>	
-			  <div class="audio-player d-flex flex-column">
-				<div class="audio-icons" style="margin-top: 10px; margin-right: 20rem; ">
-					<i class="fa fa-random  px-1 px-md-2  px-xl-4 hoverMerandom"></i>
-					<i class="fa fa-step-backward  px-1 px-md-2  px-xl-4 hoverMeleft"></i>
-					<i class="fa fa-play-circle  px-1 px-md-2  px-xl-4 hoverMecircle" style="font-size: 1.6rem;"></i>
-					<i class="fa fa-step-forward  px-1 px-md-2  px-xl-4 hoverMeleft"></i>
-					<i class="bi bi-arrow-repeat" ></i>
-				</div>
-			<progress max="5" value="2" style="width:60%;"> </progress>
-				</div>
-				<div class="mt-4 volume d-flex">
-					<i class="bi bi-list-stars px-2 "></i>
-					<i class="bi bi-archive px-2 "></i>
-					<i class="fa fa-volume-down px-2 speaker"></i> 
-				</div>
-				</div>
-			</div>
-		</section>
+      <section class="currently-playing" style="color:#fff;position:fixed ; z-index:1000;width:100%;margin-left:-230px;margin-top:53.1%;">
+<div class="container-fluid" style="box-shadow: -2px 0 15px 0px rgba(0, 0, 0, 0.5);opacity: 1;transition: all 300ms ease; justify-content: center;  width: 100%;background-color:rgb(37, 36, 36);
+display: flex;">
+<div class="current-song d-flex justify-content-around">
+  <div class="d-flex align-items-center" >
+<div class="card my-card" style="width:40px; height:40px; background-color:rgba(0,0,0,0.5);margin-left:-88px">
+  <img src="queen.jpeg" class="card-img-top" style="width:40px;height:40px;margin:auto;" alt="">
+</div>
+<h6 style="margin-left:10px;margin-top: 10px;">Bohemian Rhapsody<p style="font-size:12px; opacity:0.5; margin-top:-20px"></p><span style="font-size:10px">Queen</span></h6>
+
+<p></p>
+<i class="bi bi-heart" style="margin-left:23px; color:rgb(255, 255, 255)"></i>
+<i class="bi bi-pip" style="color:rgb(255, 255, 255);margin-left:15px"></i>
+</div>
+<div class="audio-player" style="margin-left:300px;">
+  <div class="audio-icons" style="margin-top:10px; margin-right: 23rem"> 
+<i class="fa fa-random px-4 hoverMe"></i>
+<i class="fa fa-step-backward px-4 hoverMe "></i>
+<i class="fa fa-play-circle px-4 hoverMe"></i>
+<i class="fa fa-step-forward px-4 hoverMe"></i>
+<i class="bi bi-arrow-repeat"></i>
+  </div>
+  <progress max="5" value="2" style="width:82%; margin-left:-135px" ></progress>
+</div>
+<div class="mt-4 volume">
+  <i class="bi bi-music-note-list"></i>
+  <i class="bi bi-list-starts px-2"></i>
+  <i class="bi bi-archive px-2"></i>
+  <i class="fa fa-volume-down px-2 speaker" style="margin-right: 10px;"></i>
+</div>
+</div>
+</div>
+</section>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -225,7 +223,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     -->
     </nav>
-    <!-- <script type="text/javascript">
+    <script type="text/javascript">
     
     function changeNewIcon(){
 getElementByClassName('uno').src="play-fill.svg"
@@ -235,7 +233,7 @@ getElementByClassName('uno').src="play-fill.svg"
       getElementByClassName('uno').p
     }
     
-    </script> -->
+    </script>
   </body>
 
   
